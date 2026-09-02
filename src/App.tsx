@@ -94,11 +94,12 @@ function TalentCell({talent,language}:{talent?:Talent,language:Language}) { if(!
 function VariantTalents({talents,language}:{talents:VariantTalent[],language:Language}) { if(!talents.length)return null; return <section className="variant-card"><div className="eyebrow">{language==='zh'?'命石专属天赋':'FACET-SPECIFIC TALENTS'}</div>{talents.map((talent,index)=><div className="variant-row" key={`${talent.facet}-${talent.level}-${index}`}><span>{talent.facet}</span><b>LV {talent.level}</b><p>{language==='zh'?talent.zh:talent.en}</p></div>)}</section> }
 
 function TimelineChange({text,language}:{text:string,language:Language}) {
+  const displayText = text.replace(/^\s*(?:(?:天赋|Talent)\s*[:：]\s*)+/i, '')
   const pattern = language === 'zh'
     ? /^(.*?从\s*)(.+?)(\s*(?:(?:增加|降低|提升|减少|削弱|提高|改善|改良|下降|上升)?(?:至|到)|改为|变为)\s*)(.+?)([。.!！]?)$/
     : /^(.*?\bfrom\s+)(.+?)(\s+to\s+)(.+?)([.!]?)$/i
-  const match = text.match(pattern)
-  if (!match) return <p className="timeline-copy">{text}</p>
+  const match = displayText.match(pattern)
+  if (!match) return <p className="timeline-copy">{displayText}</p>
   return <p className="timeline-copy">{match[1]}<span className="talent-token before-token">{match[2]}</span>{match[3]}<span className="talent-token after-token">{match[4]}</span>{match[5]}</p>
 }
 

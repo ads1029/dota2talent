@@ -48,9 +48,11 @@ describe('Ancient Archive full dataset', () => {
     const resistanceChange = [...document.querySelectorAll('.timeline-copy')].find(node => node.textContent?.includes('奥术光环魔法抗性减少至+6%'))
     expect(resistanceChange?.querySelector('.before-token')?.textContent).toBe('+8% 奥术光环魔法抗性')
     expect(resistanceChange?.querySelector('.after-token')?.textContent).toBe('+6%')
+    expect([...document.querySelectorAll('.timeline-copy')].every(node => !/^天赋\s*[:：]/.test(node.textContent ?? ''))).toBe(true)
     expect(document.body.textContent).not.toContain('unknown')
     fireEvent.click(screen.getByRole('button', { name: /EN/ }))
     expect(screen.queryByText('水晶室女')).toBeNull()
+    expect([...document.querySelectorAll('.timeline-copy')].every(node => !/^Talent\s*:/i.test(node.textContent ?? ''))).toBe(true)
   })
   it('classifies the former 7.02 unknown records as talent replacements', () => {
     const antiMage702 = eventsForHero('anti-mage').filter(event => event.version === '7.02')
