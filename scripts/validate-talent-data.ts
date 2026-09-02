@@ -16,6 +16,13 @@ const snapshots = JSON.parse(await readFile(new URL('./version-snapshots.json', 
 const snapshotReport = JSON.parse(await readFile(new URL('./snapshot-build-report.json', normalized), 'utf8')) as { criticalUnresolvedEvents: number; unresolvedCoveredByAnchors: number; finalCompleteHeroTrees: number }
 const currentReport = JSON.parse(await readFile(new URL('./current-snapshot-report.json', normalized), 'utf8')) as { heroes: number; branches: number; unresolvedTemplates: number }
 const currentOfficial = JSON.parse(await readFile(new URL('./current-official-talents.json', normalized), 'utf8')) as { version: string; heroes: Record<string, { en: { talents: Array<{ name: string }> } }> }
+const web = JSON.parse(await readFile(new URL('../src/generated/talent-archive.json', import.meta.url), 'utf8')) as {
+  versions: Array<[string, string | null]>
+  labels: Array<[string, string, string]>
+  trees: Record<string, Record<string, Array<number | null>>>
+  variants: Record<string, Array<[string, string, number, number]>>
+  events: Record<string, unknown[]>
+}
 const report = JSON.parse(await readFile(new URL('./import-report.json', normalized), 'utf8')) as { patchCount: number; unmatchedHeroIds: number[] }
 const list = JSON.parse(await readFile(new URL('./raw/patchnotes-list-en.json', root), 'utf8')) as { patches: Array<{ patch_number: string }> }
 const indexedFiles = new Set(list.patches.flatMap(patch => [`${patch.patch_number}-en.json`, `${patch.patch_number}-zh.json`]))
@@ -33,6 +40,11 @@ const allResolvedBranches = snapshots.every(snapshot => snapshot.rows.every(row 
   (branch.textEn && branch.textZh) || snapshot.variantTalents.some(talent => talent.heroId === row.heroId && talent.level === row.level)
 )))
 const allVariantsBilingual = snapshots.every(snapshot => snapshot.variantTalents.every(talent => talent.textEn && talent.textZh))
+const webHeroVersions = Object.values(web.trees).reduce((sum, trees) => sum + Object.keys(trees).length, 0)
+const webEvents = Object.values(web.events).reduce((sum, items) => sum + items.length, 0)
+const webTreesComplete = Object.entries(web.trees).every(([version, trees]) => Object.entries(trees).every(([heroId, tree]) =>
+  tree.length === 8 && tree.every((labelId, index) => labelId != null || (web.variants[version] ?? []).some(item => item[0] === heroId && item[2] === [10, 10, 15, 15, 20, 20, 25, 25][index]))
+))
 
 const assertions: Array<[boolean, string]> = [
   [report.patchCount === 117, `expected 117 indexed patches, got ${report.patchCount}`],
@@ -57,6 +69,12 @@ const assertions: Array<[boolean, string]> = [
   [Object.keys(currentOfficial.heroes).length === heroCatalog.length, 'official current payload does not contain every hero'],
   [finalIdsMatchOfficial, 'current snapshot talent IDs/order differ from the official current payload'],
   [finalHeroRows.every(row => [row.left, row.right].every(branch => branch.textEn && branch.textZh && !branch.textEn.includes('{') && !branch.textZh.includes('{'))), 'current snapshot has missing or unexpanded bilingual labels'],
+  [web.versions.length === snapshots.length && web.versions[0][0] === '7.00' && web.versions.at(-1)?.[0] === '7.41e', 'web dataset version coverage differs from normalized snapshots'],
+  [webHeroVersions === snapshots.reduce((sum, snapshot) => sum + snapshot.rows.filter(row => row.entity === 'hero').length / 4, 0), 'web dataset hero-version coverage differs from normalized snapshots'],
+  [Object.keys(web.trees['7.41e']).length === heroCatalog.length, 'web dataset current version does not expose all heroes'],
+  [webEvents === history.events.length, 'web dataset event count differs from assembled history'],
+  [web.labels.every(label => label[0] && label[1]), 'web dataset contains a non-bilingual label'],
+  [webTreesComplete, 'web dataset contains an incomplete tree without a facet-specific branch'],
   [report.unmatchedHeroIds.length === 0, `unmatched hero ids: ${report.unmatchedHeroIds.join(', ')}`],
   [patchFiles.length >= 234, `expected at least 234 raw patch files, got ${patchFiles.length}`],
   [emptyFiles.length === 0, `empty patch files: ${emptyFiles.join(', ')}`],
@@ -80,5 +98,8 @@ console.log(JSON.stringify({
   criticalUnresolvedEvents: snapshotReport.criticalUnresolvedEvents,
   unresolvedCoveredByAnchors: snapshotReport.unresolvedCoveredByAnchors,
   currentOfficialBranches: currentReport.branches,
+  webLabels: web.labels.length,
+  webHeroVersions,
+  webEvents,
   rawPatchFiles: patchFiles.length,
 }, null, 2))

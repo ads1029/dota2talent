@@ -14,6 +14,7 @@
     "data:build-anchors": "bun scripts/build-snapshot-anchors.ts",
     "data:snapshots": "bun scripts/build-version-snapshots.ts",
     "data:canonical-current": "bun scripts/canonicalize-current-snapshot.ts",
+    "data:web": "bun scripts/build-web-dataset.ts",
     "data:build": "bun scripts/build-talent-events.ts",
     "data:bootstrap": "bun scripts/parse-700-talents.ts",
     "data:early": "bun scripts/parse-early-patches.ts",
@@ -21,7 +22,7 @@
     "data:translate-labels": "bun scripts/translate-talent-labels.ts",
     "data:assemble": "bun scripts/assemble-talent-history.ts",
     "data:validate": "bun scripts/validate-talent-data.ts",
-    "data:compile": "bun run data:bootstrap && bun run data:early && bun run data:build && bun run data:assemble && bun run data:build-anchors && bun run data:snapshots && bun run data:canonical-current && bun run data:validate",
+    "data:compile": "bun run data:bootstrap && bun run data:early && bun run data:build && bun run data:assemble && bun run data:build-anchors && bun run data:snapshots && bun run data:canonical-current && bun run data:web && bun run data:validate",
     "data:import": "bun run data:sync && bun run data:sync-anchors && bun run data:sync-current && bun run data:compile"
   },
   "dependencies": {
