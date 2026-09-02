@@ -4,6 +4,7 @@ import { categoryLabels, changes, heroes, snapshots, type HeroId, type Language,
 import './styles.css'
 
 type Page = 'archive' | 'index'
+const assetUrl = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`
 const copy = {
   zh: { archive:'英雄档案', index:'通用天赋索引', title:'古树档案', subtitle:'DOTA 2 天赋树历史数据库', snapshot:'版本快照', timeline:'变更时间线', official:'官方来源', level:'等级', generic:'通用', unique:'独特', all:'全部类别', asc:'从低到高', desc:'从高到低', results:'条记录', search:'搜索 127 名英雄…', source:'数据原型以官方更新日志为依据', preview:'127 名英雄已导入', compare:'对比版本', empty:'没有符合条件的天赋' },
   en: { archive:'Hero archive', index:'Generic index', title:'Ancient Archive', subtitle:'DOTA 2 TALENT TREE HISTORY', snapshot:'Version snapshot', timeline:'Change timeline', official:'Official source', level:'LEVEL', generic:'GENERIC', unique:'UNIQUE', all:'All categories', asc:'Low to high', desc:'High to low', results:'records', search:'Search 127 heroes…', source:'Prototype data is sourced from official patch notes', preview:'127 HEROES IMPORTED', compare:'Compare versions', empty:'No talents match these filters' }
@@ -45,14 +46,14 @@ export default function App() {
           <div className="attribute-filters">{(['all','strength','agility','intelligence','universal'] as const).map(attr => <button key={attr} title={attr} aria-label={attr} className={`${attr} ${attribute===attr?'active':''}`} onClick={()=>setAttribute(attr)}>{attr==='all'?'ALL':attr[0].toUpperCase()}</button>)}</div>
           <div className="roster-count"><span>{matchingHeroes.length}</span> / {heroes.length} {language==='zh'?'名英雄':'HEROES'}</div>
           <div className="hero-list">{matchingHeroes.map(h => <button key={h.id} className={h.id===heroId?'selected':''} onClick={()=>setHeroId(h.id)}>
-            <span className="hero-mark" style={{'--hero':h.color} as React.CSSProperties}><img src={h.image} alt=""/><i>{h.mark}</i></span><span><b>{language==='zh'?h.zh:h.en}</b><small>{language==='zh'?h.en:h.zh}</small></span><em className={`attr-dot ${h.primaryAttr}`}/>
+            <span className="hero-mark" style={{'--hero':h.color} as React.CSSProperties}><img src={assetUrl(h.image)} alt=""/><i>{h.mark}</i></span><span><b>{language==='zh'?h.zh:h.en}</b><small>{language==='zh'?h.en:h.zh}</small></span><em className={`attr-dot ${h.primaryAttr}`}/>
           </button>)}</div>
           <div className="coverage"><ShieldCheck size={16}/><div><b>{language==='zh'?'英雄目录':'HERO ROSTER'}</b><span>{heroes.length} / {heroes.length} {language==='zh'?'官方英雄':'official heroes'}</span></div></div>
         </section>
 
         <section className="content">
           <div className="hero-heading">
-            <div className="portrait" style={{'--hero':hero.color} as React.CSSProperties}><img src={hero.image} alt={language==='zh'?hero.zh:hero.en}/><span>{hero.mark}</span></div>
+            <div className="portrait" style={{'--hero':hero.color} as React.CSSProperties}><img src={assetUrl(hero.image)} alt={language==='zh'?hero.zh:hero.en}/><span>{hero.mark}</span></div>
             <div><div className={`eyebrow hero-attribute ${hero.primaryAttr}`}>{attributeLabel(hero.primaryAttr, language)} · {language==='zh'?`复杂度 ${hero.complexity}`:`COMPLEXITY ${hero.complexity}`}</div><h1>{language==='zh'?hero.zh:hero.en}</h1><p>{language==='zh'?hero.en:hero.zh} · <span>{hasTalentData ? version : language==='zh'?'等待导入天赋':'TALENTS PENDING'}</span></p></div>
             <button className="compare"><GitCompareArrows size={17}/>{c.compare}</button>
           </div>
@@ -72,7 +73,7 @@ const attributeLabel = (attribute:PrimaryAttribute, language:Language) => ({
   strength:{zh:'力量',en:'STRENGTH'}, agility:{zh:'敏捷',en:'AGILITY'}, intelligence:{zh:'智力',en:'INTELLIGENCE'}, universal:{zh:'全才',en:'UNIVERSAL'}
 }[attribute][language])
 
-function PendingHero({hero,language}:{hero:(typeof heroes)[number],language:Language}) { return <div className="pending-hero"><div className="pending-sigil"><img src={hero.image} alt=""/></div><div><span>ROSTER IMPORT COMPLETE</span><h2>{language==='zh'?'英雄已导入，天赋历史待填充':'Hero imported, talent history pending'}</h2><p>{language==='zh'?`${hero.zh} 已进入完整英雄目录。下一数据批次会从官方更新日志重建其各版本天赋树。`:`${hero.en} is now in the complete roster. A later data batch will reconstruct every talent tree from official patch notes.`}</p></div></div>}
+function PendingHero({hero,language}:{hero:(typeof heroes)[number],language:Language}) { return <div className="pending-hero"><div className="pending-sigil"><img src={assetUrl(hero.image)} alt=""/></div><div><span>ROSTER IMPORT COMPLETE</span><h2>{language==='zh'?'英雄已导入，天赋历史待填充':'Hero imported, talent history pending'}</h2><p>{language==='zh'?`${hero.zh} 已进入完整英雄目录。下一数据批次会从官方更新日志重建其各版本天赋树。`:`${hero.en} is now in the complete roster. A later data batch will reconstruct every talent tree from official patch notes.`}</p></div></div>}
 
 function TalentTree({talents, language}:{talents: Talent[], language:Language}) {
   const c=copy[language]
