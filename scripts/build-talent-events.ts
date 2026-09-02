@@ -45,6 +45,11 @@ const inferLevel = (note: string): RawEvent['level'] => {
   const match = note.match(/(?:Level\s+)?(10|15|20|25)(?:\s*级)?\s*(?:Talent|天赋)/i) ?? note.match(/(?:Talent|天赋)[^\d]{0,8}(10|15|20|25)/i)
   return match ? Number(match[1]) as RawEvent['level'] : null
 }
+const comparableTalent = (text: string) => text.toLowerCase()
+  .replace(/[+-]?\d+(?:\.\d+)?%?/g, '')
+  .replace(/\bseconds?\b|\bsecs?\b/g, '')
+  .replace(/[^a-z]+/g, ' ')
+  .trim()
 const inferType = (note: string): RawEvent['type'] => {
   if (/removed|移除|删除/i.test(note)) return 'removed'
   if (/added|新增|Level\s+(?:10|15|20|25)\s+Talents\s*:/i.test(note)) return 'added'
@@ -53,6 +58,12 @@ const inferType = (note: string): RawEvent['type'] => {
   if (/changed from|changed to|replaced|改为|替换/i.test(note)) return 'replaced'
   if (/increased|decreased|reduced|rescaled|raised|提升|降低|减少|增加|从.*至/i.test(note)) return 'value_changed'
   if (/\bnow\b|no longer|现在|不再/i.test(note)) return 'reworked'
+  const fromTo = note.match(/\bfrom\s+(.+?)\s+to\s+(.+?)(?:\.|$)/i)
+  if (fromTo) {
+    const before = comparableTalent(fromTo[1])
+    const after = comparableTalent(fromTo[2])
+    return !after || before === after ? 'value_changed' : 'replaced'
+  }
   return 'unknown'
 }
 

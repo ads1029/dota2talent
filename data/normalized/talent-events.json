@@ -152,7 +152,7 @@
     "entity": "hero",
     "variant": null,
     "level": 25,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Talent: Level 25 Talent from +30% Ministun Focus Fire to +35%",
     "textZh": "天赋：25级天赋从+30% 集中火力短暂眩晕提升至+35%",
     "source": {
@@ -602,7 +602,7 @@
     "entity": "hero",
     "variant": null,
     "level": 10,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Talent: Level 10 Talent from +0.3s Tornado Lift Time to +0.5s",
     "textZh": "天赋：10级天赋从+0.3秒 强袭飓风滞空提升至+0.5秒",
     "source": {
@@ -620,7 +620,7 @@
     "entity": "hero",
     "variant": null,
     "level": 15,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Talent: Level 15 Talent from +1.5s Cold Snap Duration to +2.5s",
     "textZh": "天赋：15级天赋从+1.5秒 急速冷却持续时间提升至+2.5秒",
     "source": {
@@ -692,7 +692,7 @@
     "entity": "hero",
     "variant": null,
     "level": 25,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Talent: Level 25 Talent from Attacks Apply 30% MS and AS Slow to 40%",
     "textZh": "天赋：25级天赋从普攻降低30%移速攻速提升至40%",
     "source": {
@@ -836,7 +836,7 @@
     "entity": "hero",
     "variant": null,
     "level": 15,
-    "type": "unknown",
+    "type": "replaced",
     "textEn": "Talent: Level 15 Talent from -3s Lucent Beam Cooldown to -4s",
     "textZh": "天赋：15级天赋从-3秒 月光冷却提升至-4秒",
     "source": {
@@ -1304,7 +1304,7 @@
     "entity": "hero",
     "variant": null,
     "level": 20,
-    "type": "unknown",
+    "type": "replaced",
     "textEn": "Talent: Level 20 Talent from +100 Damage to +10 Armor",
     "textZh": "天赋：20级天赋从+100 攻击力改为+10 护甲",
     "source": {
@@ -1340,7 +1340,7 @@
     "entity": "hero",
     "variant": null,
     "level": 15,
-    "type": "unknown",
+    "type": "replaced",
     "textEn": "Talent: Level 15 Talent improved from 3s Tree Respawn Time to 2s",
     "textZh": "天赋：15级天赋从3秒 树木重生时间降低至2秒",
     "source": {
@@ -1790,7 +1790,7 @@
     "entity": "hero",
     "variant": null,
     "level": 10,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Level 10 Talent from +300 Waveform Range to +350",
     "textZh": "10级天赋从+300 波浪形态距离提升至+350",
     "source": {
@@ -1808,7 +1808,7 @@
     "entity": "hero",
     "variant": null,
     "level": 25,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Level 25 Talent from +2 Multishot Adaptive Strike to +3",
     "textZh": "25级天赋从+2 变体攻击多个目标提升至+3",
     "source": {
@@ -1862,7 +1862,7 @@
     "entity": "hero",
     "variant": null,
     "level": 20,
-    "type": "unknown",
+    "type": "replaced",
     "textEn": "Level 20 Talent from -5s Waning Rift Cooldown to -8s",
     "textZh": "20级天赋从-5秒 新月之痕冷却提升至-8秒",
     "source": {
@@ -2240,7 +2240,7 @@
     "entity": "hero",
     "variant": null,
     "level": 20,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Level 20 Talent improved from +30 Swashbuckle Damage to +40",
     "textZh": "20级天赋从+30 虚张声势伤害提升至+40",
     "source": {
@@ -2258,7 +2258,7 @@
     "entity": "hero",
     "variant": null,
     "level": 25,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Level 25 Talent improved from -16s Rolling Thunder Cooldown to -35",
     "textZh": "25级天赋从-16秒 地雷滚滚冷却提升至-35秒",
     "source": {
@@ -2276,7 +2276,7 @@
     "entity": "hero",
     "variant": null,
     "level": 25,
-    "type": "unknown",
+    "type": "replaced",
     "textEn": "Level 25 Talent improved from 20s Spell Block to 15s",
     "textZh": "25级天赋从20秒 法术抵抗降低至15秒",
     "source": {
@@ -2744,7 +2744,7 @@
     "entity": "hero",
     "variant": null,
     "level": 20,
-    "type": "unknown",
+    "type": "replaced",
     "textEn": "Level 20 Talent improved from Double Strike Stifling Dagger to Triple Strike Stifling Dagger",
     "textZh": "20级天赋从+1 窒碍短匕掷出提升至+2",
     "source": {
@@ -3968,7 +3968,7 @@
     "entity": "hero",
     "variant": null,
     "level": 15,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Level 15 Talent from +100 Time Lock Damage to +70",
     "textZh": "15级天赋从+100 时间锁定伤害减少至+70",
     "source": {
@@ -5372,7 +5372,7 @@
     "entity": "hero",
     "variant": null,
     "level": 20,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Level 20 Talent improved from -0.2 Spirit Bear Base Attack Time to -0.3",
     "textZh": "20级天赋从-0.2 熊灵攻击间隔降低至-0.3",
     "source": {
@@ -7676,7 +7676,7 @@
     "entity": "hero",
     "variant": null,
     "level": 10,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Level 10 Talent improved from +10 Strength to +12",
     "textZh": "10级天赋从+10 力量提升至+12",
     "source": {
@@ -7694,7 +7694,7 @@
     "entity": "hero",
     "variant": null,
     "level": 15,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Level 15 Talent improved from -1 Time Walk Cooldown to -1.5",
     "textZh": "15级天赋从-1秒 时间漫游冷却提升至-1.5秒",
     "source": {
@@ -7712,7 +7712,7 @@
     "entity": "hero",
     "variant": null,
     "level": 20,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Level 20 Talent improved from +40 Attack Speed to +45",
     "textZh": "20级天赋从+40 攻击速度提升至+45",
     "source": {
@@ -9944,7 +9944,7 @@
     "entity": "hero",
     "variant": null,
     "level": 10,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Level 10 Talent from +10 Agility to +12",
     "textZh": "10级天赋从+10 敏捷提升至+12",
     "source": {
@@ -17324,7 +17324,7 @@
     "entity": "hero",
     "variant": null,
     "level": 25,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Level 25 Talent Dream Coil Rapid Fire attack interval improved from 0.85 to 0.75",
     "textZh": "25级天赋梦境缠绕快速攻击的攻击间隔从0.85秒降低至0.75秒",
     "source": {
@@ -20996,7 +20996,7 @@
     "entity": "hero",
     "variant": null,
     "level": 10,
-    "type": "unknown",
+    "type": "replaced",
     "textEn": "Level 10 Talent increase from +15 Damage to +20 Base Damage",
     "textZh": "10级天赋从+15 攻击力改为+20 基础攻击力",
     "source": {
@@ -21086,7 +21086,7 @@
     "entity": "hero",
     "variant": null,
     "level": 25,
-    "type": "unknown",
+    "type": "replaced",
     "textEn": "Level 25 Talent change from +200 Armor Wukong's Command to 0 Cooldown Primal Spring",
     "textZh": "25级天赋从+200 猴子猴孙护甲改为乾坤之跃无冷却",
     "source": {
@@ -22310,7 +22310,7 @@
     "entity": "hero",
     "variant": null,
     "level": 25,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Level 25 Talent improved from 600 Distance Auto Remnant to 550",
     "textZh": "25级天赋从球状闪电每600距离自动施放残影降低至550",
     "source": {
@@ -24182,7 +24182,7 @@
     "entity": "hero",
     "variant": null,
     "level": 15,
-    "type": "unknown",
+    "type": "replaced",
     "textEn": "Level 15 talent changed  from 15% Cooldown Reduction to -15s Web Recharge time",
     "textZh": "15级天赋从15% 冷却时间降低改为-15秒 织网充能时间",
     "source": {
@@ -26468,7 +26468,7 @@
     "entity": "hero",
     "variant": null,
     "level": 15,
-    "type": "unknown",
+    "type": "replaced",
     "textEn": "Level 15 talent improved from -0.8s Nether Blast Cooldown to -1s",
     "textZh": "15级天赋从-0.8秒 幽冥爆轰冷却提升至-1秒",
     "source": {
@@ -31562,7 +31562,7 @@
     "entity": "hero",
     "variant": null,
     "level": 25,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Level 25 Talent Dream Coil rapid fire frequency improved from 0.75s to 0.6s (max attacks 8 -> 10)",
     "textZh": "25级天赋的梦境缠绕快速攻击频率从0.75秒降低至0.6秒（最多攻击次数8 -> 10）",
     "source": {
@@ -39482,7 +39482,7 @@
     "entity": "hero",
     "variant": null,
     "level": 25,
-    "type": "unknown",
+    "type": "value_changed",
     "textEn": "Level 25 Talent Spirit Siphon Replenish Time improved from -20s to -22s",
     "textZh": "25级天赋从-20秒 吸魂巫术充能提升至-22秒",
     "source": {

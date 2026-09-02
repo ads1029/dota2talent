@@ -1,7 +1,7 @@
 import { cleanup, render, screen, fireEvent } from '@testing-library/react'
 import { afterEach, describe, expect, it } from 'vitest'
 import App from './App'
-import { archive, heroes, talentsForHero, versions } from './data'
+import { archive, eventsForHero, heroes, talentsForHero, versions } from './data'
 
 afterEach(cleanup)
 
@@ -48,5 +48,15 @@ describe('Ancient Archive full dataset', () => {
     expect(document.body.textContent).not.toContain('unknown')
     fireEvent.click(screen.getByRole('button', { name: /EN/ }))
     expect(screen.queryByText('水晶室女')).toBeNull()
+  })
+  it('classifies the former 7.02 unknown records as talent replacements', () => {
+    const antiMage702 = eventsForHero('anti-mage').filter(event => event.version === '7.02')
+    expect(antiMage702).toHaveLength(3)
+    expect(antiMage702.every(event => event.type === 'replaced')).toBe(true)
+    render(<App />)
+    fireEvent.change(screen.getByPlaceholderText('搜索 127 名英雄…'), { target: { value: 'Anti-Mage' } })
+    fireEvent.click(screen.getByRole('button', { name: '敌法师' }))
+    fireEvent.click(screen.getByText('变更时间线'))
+    expect(screen.getAllByText('天赋替换').length).toBeGreaterThan(0)
   })
 })

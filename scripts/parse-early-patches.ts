@@ -83,11 +83,22 @@ function extractLiquipedia(html: string) {
 }
 
 const inferLevel = (note: string) => Number(note.match(/(?:Level\s+)?(10|15|20|25)(?:\s*级)?\s*(?:Talent|天赋)/i)?.[1] ?? 0) as EarlyEvent['level'] || null
+const comparableTalent = (text: string) => text.toLowerCase()
+  .replace(/[+-]?\d+(?:\.\d+)?%?/g, '')
+  .replace(/\bseconds?\b|\bsecs?\b/g, '')
+  .replace(/[^a-z]+/g, ' ')
+  .trim()
 const inferType = (note: string): EarlyEvent['type'] => {
   if (/swapped|moved|互换|移至/i.test(note)) return 'moved'
   if (/changed from|replaced|改为|替换/i.test(note)) return 'replaced'
   if (/increased|decreased|reduced|rescaled|提升|降低|减少|增加/i.test(note)) return 'value_changed'
   if (/now|no longer|现在|不再/i.test(note)) return 'reworked'
+  const fromTo = note.match(/\bfrom\s+(.+?)\s+to\s+(.+?)(?:\.|$)/i)
+  if (fromTo) {
+    const before = comparableTalent(fromTo[1])
+    const after = comparableTalent(fromTo[2])
+    return !after || before === after ? 'value_changed' : 'replaced'
+  }
   return 'unknown'
 }
 
