@@ -10,3 +10,9 @@
 .talent-token.single{margin:0;border-color:#475149;background:#181d19;color:#dce3d8}
 .change-card h3{font-size:23px;margin-bottom:12px}
 @media(max-width:850px){.timeline-copy{font-size:15px!important;line-height:2}.talent-token{margin-top:3px;margin-bottom:3px}}
+
+/* Timeline ordering controls */
+.toolbar-actions{display:flex;align-items:center;gap:12px}
+.timeline-order{height:34px;border:1px solid #343a36;background:#151917;color:#b9c3b8;padding:0 11px;display:flex;align-items:center;gap:7px;font:600 10px 'Barlow Condensed','Noto Sans SC';letter-spacing:.08em;white-space:nowrap}
+.timeline-order:hover{border-color:#59645b;color:#eef1ea;background:#1a1f1c}
+@media(max-width:850px){.toolbar{height:auto;min-height:74px;gap:12px}.toolbar-actions{gap:7px}.timeline-order{font-size:0;padding:0 9px}.timeline-order svg{width:17px;height:17px}}

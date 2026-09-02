@@ -16,6 +16,7 @@ export default function App() {
   const [heroId, setHeroId] = useState<HeroId>('crystal-maiden')
   const [version, setVersion] = useState(versions.at(-1) ?? '7.41e')
   const [view, setView] = useState<'snapshot'|'timeline'>('snapshot')
+  const [timelineOrder, setTimelineOrder] = useState<'desc'|'asc'>('desc')
   const [category, setCategory] = useState<TalentCategory|'all'>('all')
   const [sort, setSort] = useState<'desc'|'asc'>('desc')
   const [query, setQuery] = useState('')
@@ -60,9 +61,12 @@ export default function App() {
           </div>
           <div className="toolbar">
             <div className="segmented"><button className={view==='snapshot'?'active':''} onClick={()=>setView('snapshot')}>{c.snapshot}</button><button className={view==='timeline'?'active':''} onClick={()=>setView('timeline')}>{c.timeline}</button></div>
-            <label>{language==='zh'?'查看版本':'VIEW PATCH'}<span className="select-wrap"><select value={version} onChange={e=>setVersion(e.target.value)}>{[...versions].reverse().map(item=><option key={item}>{item}</option>)}</select><ChevronDown size={15}/></span></label>
+            <div className="toolbar-actions">
+              {view==='timeline'&&<button className="timeline-order" onClick={()=>setTimelineOrder(timelineOrder==='desc'?'asc':'desc')} aria-label={language==='zh'?'切换时间线顺序':'Reverse timeline order'}><ArrowDownUp size={15}/>{timelineOrder==='desc'?(language==='zh'?'最新 → 最旧':'NEWEST → OLDEST'):(language==='zh'?'最旧 → 最新':'OLDEST → NEWEST')}</button>}
+              <label>{language==='zh'?'查看版本':'VIEW PATCH'}<span className="select-wrap"><select value={version} onChange={e=>setVersion(e.target.value)}>{[...versions].reverse().map(item=><option key={item}>{item}</option>)}</select><ChevronDown size={15}/></span></label>
+            </div>
           </div>
-          {hasTalentData ? (view==='snapshot' ? <><TalentTree talents={heroTalents} language={language}/><VariantTalents talents={variantTalents} language={language}/></> : <Timeline events={eventsForHero(heroId)} language={language}/>) : <PendingHero hero={hero} language={language} version={version}/>}
+          {hasTalentData ? (view==='snapshot' ? <><TalentTree talents={heroTalents} language={language}/><VariantTalents talents={variantTalents} language={language}/></> : <Timeline events={eventsForHero(heroId)} language={language} order={timelineOrder}/>) : <PendingHero hero={hero} language={language} version={version}/>}
           <div className="source-card"><span><ShieldCheck size={18}/></span><div><b>{c.source}</b><p>{language==='zh'?`已载入 7.00–7.41e 全部 133 个版本；当前选择 ${version}，所有分支与变更记录均已载入。`:`All 133 patches from 7.00–7.41e are loaded. ${version} preserves every branch and change record.`}</p></div><a href={version==='7.00'?'https://www.dota2.com/700/gameplay':`https://www.dota2.com/patches/${version}`} target="_blank">{c.official}<ExternalLink size={14}/></a></div>
         </section>
       </> : <GenericIndex language={language} version={version} setVersion={setVersion} category={category} setCategory={setCategory} sort={sort} setSort={setSort} talents={genericTalents}/>}
@@ -104,7 +108,16 @@ const changeTypeLabels: Record<string,{zh:string;en:string}> = {
   unknown:{zh:'其他调整',en:'OTHER CHANGE'},
 }
 
-function Timeline({events,language}:{events:ArchiveEvent[],language:Language}) { return <div className="timeline">{events.length?events.map((event,i)=><article key={`${event.version}-${i}`}><div className="time-mark"><span/></div><div className="time-meta"><b>{event.version}</b><small>{event.facet ?? (language==='zh'?'英雄天赋':'HERO TALENT')}</small></div><div className="change-card"><span className="change-type">{(changeTypeLabels[event.type]??changeTypeLabels.unknown)[language]}</span><h3>{event.level?(language==='zh'?`${event.level} 级天赋`:`Level ${event.level}`):(language==='zh'?'天赋变更':'Talent change')}</h3><TimelineChange text={language==='zh'?event.zh:event.en} language={language}/></div></article>):<div className="empty"><Sparkles/>{language==='zh'?'该英雄没有单独的天赋变更事件':'No individual talent changes for this hero'}</div>}</div> }
+function Timeline({events,language,order}:{events:ArchiveEvent[],language:Language,order:'desc'|'asc'}) {
+  const groups = events.reduce<ArchiveEvent[][]>((result,event) => {
+    const last = result.at(-1)
+    if (last?.[0].version === event.version) last.push(event)
+    else result.push([event])
+    return result
+  }, [])
+  const orderedEvents = (order === 'desc' ? [...groups].reverse() : groups).flat()
+  return <div className="timeline">{orderedEvents.length?orderedEvents.map((event,i)=><article key={`${event.version}-${i}`}><div className="time-mark"><span/></div><div className="time-meta"><b>{event.version}</b><small>{event.facet ?? (language==='zh'?'英雄天赋':'HERO TALENT')}</small></div><div className="change-card"><span className="change-type">{(changeTypeLabels[event.type]??changeTypeLabels.unknown)[language]}</span><h3>{event.level?(language==='zh'?`${event.level} 级天赋`:`Level ${event.level}`):(language==='zh'?'天赋变更':'Talent change')}</h3><TimelineChange text={language==='zh'?event.zh:event.en} language={language}/></div></article>):<div className="empty"><Sparkles/>{language==='zh'?'该英雄没有单独的天赋变更事件':'No individual talent changes for this hero'}</div>}</div>
+}
 
 function GenericIndex({language,version,setVersion,category,setCategory,sort,setSort,talents}:{language:Language,version:string,setVersion:(v:string)=>void,category:TalentCategory|'all',setCategory:(v:TalentCategory|'all')=>void,sort:'asc'|'desc',setSort:(v:'asc'|'desc')=>void,talents:Talent[]}) {
  const c=copy[language]; return <section className="index-page"><div className="index-title"><div><span className="eyebrow">NORMALIZED TALENT DATA</span><h1>{c.index}</h1><p>{language==='zh'?'跨英雄比较可量化的通用属性天赋。独特、复合型天赋不会进入排名。':'Compare normalized generic attributes across heroes. Unique and compound talents are excluded.'}</p></div><div className="result-count"><b>{talents.length}</b><span>{c.results}</span></div></div>

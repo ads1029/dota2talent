@@ -59,4 +59,15 @@ describe('Ancient Archive full dataset', () => {
     fireEvent.click(screen.getByText('变更时间线'))
     expect(screen.getAllByText('天赋替换').length).toBeGreaterThan(0)
   })
+  it('shows the newest timeline patch first and reverses the order on demand', () => {
+    const events = eventsForHero('crystal-maiden')
+    render(<App />)
+    fireEvent.click(screen.getByText('变更时间线'))
+    const firstVisibleVersion = () => document.querySelector('.time-meta b')?.textContent
+    expect(screen.getByText('最新 → 最旧')).toBeTruthy()
+    expect(firstVisibleVersion()).toBe(events.at(-1)?.version)
+    fireEvent.click(screen.getByRole('button', { name: '切换时间线顺序' }))
+    expect(screen.getByText('最旧 → 最新')).toBeTruthy()
+    expect(firstVisibleVersion()).toBe(events[0].version)
+  })
 })
