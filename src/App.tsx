@@ -95,10 +95,10 @@ function VariantTalents({talents,language}:{talents:VariantTalent[],language:Lan
 
 function TimelineChange({text,language}:{text:string,language:Language}) {
   const pattern = language === 'zh'
-    ? /^(.*?从\s*)(.+?)(\s*(?:增加到|降低到|提升至|改为|变为|到)\s*)(.+?)([。.!！]?)$/
+    ? /^(.*?从\s*)(.+?)(\s*(?:(?:增加|降低|提升|减少|削弱|提高|改善|改良|下降|上升)?(?:至|到)|改为|变为)\s*)(.+?)([。.!！]?)$/
     : /^(.*?\bfrom\s+)(.+?)(\s+to\s+)(.+?)([.!]?)$/i
   const match = text.match(pattern)
-  if (!match) return <p className="timeline-copy"><span className="talent-token single">{text}</span></p>
+  if (!match) return <p className="timeline-copy">{text}</p>
   return <p className="timeline-copy">{match[1]}<span className="talent-token before-token">{match[2]}</span>{match[3]}<span className="talent-token after-token">{match[4]}</span>{match[5]}</p>
 }
 
