@@ -1,0 +1,17 @@
+{
+  "baselines": {
+    "7.00": {
+      "heroes": 113,
+      "talentRows": 452,
+      "individualTalents": 904,
+      "bilingualRows": 452
+    },
+    "7.07": {
+      "heroes": 115,
+      "talentRows": 460,
+      "individualTalents": 920,
+      "bilingualRows": 460
+    }
+  },
+  "unmatchedKeys": []
+}

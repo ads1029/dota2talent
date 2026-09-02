@@ -1,0 +1,90 @@
+[
+  {
+    "version": "7.19",
+    "heroId": "grimstroke",
+    "source": "https://github.com/odota/dotaconstants/commit/1a4ad9679013bb28a1b6864cdca821f93fe91951",
+    "rows": [
+      { "level": 10, "left": { "textEn": "+30 Movement Speed", "textZh": "+30 移动速度" }, "right": { "textEn": "+90 Gold/Min", "textZh": "+90 金钱/分" } },
+      { "level": 15, "left": { "textEn": "+12% Spell Amplification", "textZh": "+12% 技能增强" }, "right": { "textEn": "+125 Cast Range", "textZh": "+125 施法距离" } },
+      { "level": 20, "left": { "textEn": "+600 Stroke of Fate Cast Range", "textZh": "+600 命运之笔施法距离" }, "right": { "textEn": "+2 Hits to Kill Phantom", "textZh": "+2 幻影死亡所需攻击次数" } },
+      { "level": 25, "left": { "textEn": "+200 Ink Swell Radius", "textZh": "+200 墨涌作用范围" }, "right": { "textEn": "+50% Stroke of Fate Damage", "textZh": "+50% 命运之笔伤害" } }
+    ]
+  },
+  {
+    "version": "7.23",
+    "heroId": "snapfire",
+    "source": "https://github.com/odota/dotaconstants/commit/359b36328c48cee3d1de2457648cfe5f363f504b",
+    "rows": [
+      { "level": 10, "left": { "textEn": "+250 Health", "textZh": "+250 生命" }, "right": { "textEn": "+20 Movement Speed", "textZh": "+20 移动速度" } },
+      { "level": 15, "left": { "textEn": "Firesnap Cookie Restores 250 Health", "textZh": "龙炎饼干恢复250生命" }, "right": { "textEn": "+60 Scatterblast Damage", "textZh": "+60 电光石火伤害" } },
+      { "level": 20, "left": { "textEn": "Lil' Shredder Uses Your Attack Damage", "textZh": "霹雳铁手使用自身攻击力" }, "right": { "textEn": "+25% Mortimer Kisses Movement Slow", "textZh": "+25% 蜥蜴绝吻移动速度减缓" } },
+      { "level": 25, "left": { "textEn": "Scatterblast Applies 3s Disarm", "textZh": "电光石火施加3秒缴械" }, "right": { "textEn": "+8 Mortimer Kisses Launched", "textZh": "+8 蜥蜴绝吻发射数量" } }
+    ]
+  },
+  {
+    "version": "7.23",
+    "heroId": "void-spirit",
+    "source": "https://github.com/odota/dotaconstants/commit/76d7464b0df6e6a247d398e39c8e0e90b94673de",
+    "rows": [
+      { "level": 10, "left": { "textEn": "+3 Mana Regen", "textZh": "+3 魔法恢复" }, "right": { "textEn": "+30 Damage", "textZh": "+30 攻击力" } },
+      { "level": 15, "left": { "textEn": "Remnant Provides 600 Truesight", "textZh": "残阴提供600真实视域" }, "right": { "textEn": "+150 Resonant Pulse Damage", "textZh": "+150 共鸣脉冲伤害" } },
+      { "level": 20, "left": { "textEn": "+15% Spell Amplification", "textZh": "+15% 技能增强" }, "right": { "textEn": "-5s Astral Step Charge Restore Time", "textZh": "-5秒 太虚之径充能恢复时间" } },
+      { "level": 25, "left": { "textEn": "Astral Step 200% Crit", "textZh": "太虚之径200%致命一击" }, "right": { "textEn": "Dissimilate Stuns for 3s", "textZh": "异化造成3秒眩晕" } }
+    ]
+  },
+  {
+    "version": "7.29",
+    "heroId": "dawnbreaker",
+    "source": "https://github.com/odota/dotaconstants/commit/e704553129d7a8be9b50beaf37934c6faf820dde",
+    "rows": [
+      { "level": 10, "left": { "textEn": "+8 Strength", "textZh": "+8 力量" }, "right": { "textEn": "+20 Movement Speed", "textZh": "+20 移动速度" } },
+      { "level": 15, "left": { "textEn": "+20 Damage", "textZh": "+20 攻击力" }, "right": { "textEn": "-20s Solar Guardian Cooldown", "textZh": "-20秒 天光现世冷却" } },
+      { "level": 20, "left": { "textEn": "2 Starbreaker Charges", "textZh": "2次 破晓辰星能量点数" }, "right": { "textEn": "+40% Luminosity Crit Damage", "textZh": "+40% 熠熠生辉致命一击伤害" } },
+      { "level": 25, "left": { "textEn": "+200 Solar Guardian Radius", "textZh": "+200 天光现世作用范围" }, "right": { "textEn": "+1100 Celestial Hammer Cast Range", "textZh": "+1100 上界重锤施法距离" } }
+    ]
+  },
+  {
+    "version": "7.29",
+    "heroId": "invoker",
+    "source": "https://www.dota2.com/patches/7.29",
+    "rows": [
+      { "level": 10, "left": { "textEn": "-24s Ghost Walk Cooldown", "textZh": "-24秒 幽灵漫步冷却" }, "right": { "textEn": "+40% Chaos Meteor Damage", "textZh": "+40% 混沌陨石伤害" } },
+      { "level": 15, "left": { "textEn": "+40 DPS Ice Wall", "textZh": "+40 冰墙每秒伤害" }, "right": { "textEn": "-8s Cold Snap Cooldown", "textZh": "-8秒 急速冷却的冷却时间" } },
+      { "level": 20, "left": { "textEn": "-10s Tornado Cooldown", "textZh": "-10秒 强袭飓风冷却" }, "right": { "textEn": "+35 Alacrity Damage/Speed", "textZh": "+35 灵动迅捷伤害/攻速" } },
+      { "level": 25, "left": { "textEn": "Radial Deafening Blast", "textZh": "环形超震声波" }, "right": { "textEn": "+2 Forged Spirit Armor Reduction", "textZh": "+2 熔炉精灵降低护甲" } }
+    ]
+  },
+  {
+    "version": "7.31",
+    "heroId": "primal-beast",
+    "source": "https://github.com/odota/dotaconstants/commit/3b36183e1214e12a56d9127040942c137b02c7e7",
+    "rows": [
+      { "level": 10, "left": { "textEn": "+12% Magic Resistance", "textZh": "+12% 魔法抗性" }, "right": { "textEn": "+2 Mana Regen", "textZh": "+2 魔法恢复" } },
+      { "level": 15, "left": { "textEn": "+3 Uproar Armor Per Stack", "textZh": "+3 咤怒每层护甲" }, "right": { "textEn": "+120 Onslaught Damage", "textZh": "+120 突伤害" } },
+      { "level": 20, "left": { "textEn": "+30% Trample Attack Damage", "textZh": "+30% 踏攻击伤害" }, "right": { "textEn": "Uproar Applies a Basic Dispel", "textZh": "咤怒施加弱驱散" } },
+      { "level": 25, "left": { "textEn": "+100% Pulverize Duration", "textZh": "+100% 捶持续时间" }, "right": { "textEn": "+50% Spell Lifesteal", "textZh": "+50% 技能吸血" } }
+    ]
+  },
+  {
+    "version": "7.37d",
+    "heroId": "kez",
+    "source": "https://github.com/odota/dotaconstants/commit/d6d00ce70a24bee82dc9fccd18dc0d2370ea120f",
+    "rows": [
+      { "level": 10, "left": { "textEn": "+12% Magic Resistance", "textZh": "+12% 魔法抗性" }, "right": { "textEn": "+1.5 Mana Regen", "textZh": "+1.5 魔法恢复" } },
+      { "level": 15, "left": { "textEn": "+2s Falcon Rush Duration", "textZh": "+2秒 猎鹰冲刺持续时间" }, "right": { "textEn": "+50 Raptor Dance Radius", "textZh": "+50 猛禽之舞作用范围" } },
+      { "level": 20, "left": { "textEn": "+5% Kazurai Katana Damage Per Second", "textZh": "+5% 影武长刀每秒伤害" }, "right": { "textEn": "+50% Falcon Rush Evasion", "textZh": "+50% 猎鹰冲刺闪避" } },
+      { "level": 25, "left": { "textEn": "+75% Shodo Sai Mark Critical Strike", "textZh": "+75% 翔道之钗标记致命一击" }, "right": { "textEn": "+1 Echo Slash Attack", "textZh": "+1 回音重斩攻击次数" } }
+    ]
+  },
+  {
+    "version": "7.40",
+    "heroId": "largo",
+    "source": "https://liquipedia.net/dota2/Largo",
+    "rows": [
+      { "level": 10, "left": { "textEn": "+15 Frogstomp Damage", "textZh": "+15 蛙跳踩踏伤害" }, "right": { "textEn": "x2.5 Catchy Lick Health Regen", "textZh": "舔上加舔生命恢复×2.5" } },
+      { "level": 15, "left": { "textEn": "1.5% Croak of Genius Max Health DPS", "textZh": "呱呱天才每秒造成1.5%最大生命伤害" }, "right": { "textEn": "+100 Catchy Lick Cast Range / +50 Pull Distance", "textZh": "+100 舔上加舔施法距离 / +50 牵引距离" } },
+      { "level": 20, "left": { "textEn": "+140 Catchy Lick Damage", "textZh": "+140 舔上加舔伤害" }, "right": { "textEn": "50% Groovin' Armor Aura", "textZh": "律动护甲光环50%" } },
+      { "level": 25, "left": { "textEn": "+35% Amphibian Rhapsody Song Effects", "textZh": "+35% 两栖狂想曲歌曲效果" }, "right": { "textEn": "2 Catchy Lick Charges", "textZh": "2次 舔上加舔能量点数" } }
+    ]
+  }
+]

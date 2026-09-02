@@ -1,0 +1,21 @@
+{
+  "source": "Valve Dota 2 datafeed",
+  "endpoint": "https://www.dota2.com/datafeed/patchnotes",
+  "generatedAt": "2026-09-02T13:19:07.189Z",
+  "languages": [
+    {
+      "language": "en",
+      "patches": 117,
+      "downloaded": 116,
+      "cached": 1,
+      "listSha256": "439e946eb309e8f1d51a324eedeae90e7aaaa7588386af1e4ce38d4aee0ccf64"
+    },
+    {
+      "language": "zh",
+      "patches": 117,
+      "downloaded": 116,
+      "cached": 1,
+      "listSha256": "439e946eb309e8f1d51a324eedeae90e7aaaa7588386af1e4ce38d4aee0ccf64"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "events": 570,
+  "bilingual": 140,
+  "sources": [
+    {
+      "version": "7.01",
+      "source": "wiki",
+      "date": "2016-12-20",
+      "events": 22,
+      "bilingual": 0
+    },
+    {
+      "version": "7.02",
+      "source": "wiki",
+      "date": "2017-02-08",
+      "events": 239,
+      "bilingual": 0
+    },
+    {
+      "version": "7.03",
+      "source": "official_patch",
+      "date": null,
+      "events": 90,
+      "bilingual": 90
+    },
+    {
+      "version": "7.04",
+      "source": "wiki",
+      "date": "2017-03-23",
+      "events": 10,
+      "bilingual": 0
+    },
+    {
+      "version": "7.05",
+      "source": "wiki",
+      "date": "2017-04-09",
+      "events": 59,
+      "bilingual": 0
+    },
+    {
+      "version": "7.06",
+      "source": "official_patch",
+      "date": null,
+      "events": 50,
+      "bilingual": 50
+    },
+    {
+      "version": "7.06b",
+      "source": "wiki",
+      "date": "2017-05-21",
+      "events": 0,
+      "bilingual": 0
+    },
+    {
+      "version": "7.06c",
+      "source": "wiki",
+      "date": "2017-05-29",
+      "events": 9,
+      "bilingual": 0
+    },
+    {
+      "version": "7.06d",
+      "source": "wiki",
+      "date": "2017-06-11",
+      "events": 7,
+      "bilingual": 0
+    },
+    {
+      "version": "7.06e",
+      "source": "wiki",
+      "date": "2017-07-02",
+      "events": 15,
+      "bilingual": 0
+    },
+    {
+      "version": "7.06f",
+      "source": "wiki",
+      "date": "2017-08-20",
+      "events": 7,
+      "bilingual": 0
+    },
+    {
+      "version": "7.07",
+      "source": "official_patch",
+      "date": null,
+      "events": 0,
+      "bilingual": 0
+    },
+    {
+      "version": "7.07b",
+      "source": "wiki",
+      "date": "2017-11-05",
+      "events": 19,
+      "bilingual": 0
+    },
+    {
+      "version": "7.07c",
+      "source": "wiki",
+      "date": "2017-11-17",
+      "events": 35,
+      "bilingual": 0
+    },
+    {
+      "version": "7.07d",
+      "source": "wiki",
+      "date": "2017-12-19",
+      "events": 8,
+      "bilingual": 0
+    }
+  ]
+}

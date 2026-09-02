@@ -1,0 +1,705 @@
+{
+  "generatedAt": "2026-09-02T13:48:52.510Z",
+  "anchors": [
+    {
+      "version": "7.05",
+      "sha": "c00722f4ccb6b4216db06f5c4a7753ee6eaf0e9c",
+      "date": "2017-05-02T01:21:46Z",
+      "message": "add hero_abilites.json, containing talents and abilities for each hero",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.05.json",
+        "abilities.json": "abilities-7.05.json"
+      }
+    },
+    {
+      "version": "7.06",
+      "sha": "9d7c2f904dd2254e1ef4aed0235de013af86999f",
+      "date": "2017-05-15T15:48:50Z",
+      "message": "7.06",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.06.json",
+        "abilities.json": "abilities-7.06.json"
+      }
+    },
+    {
+      "version": "7.06b",
+      "sha": "1e4be0312b86171f21287b4bff58e06cb50e76e0",
+      "date": "2017-05-25T16:26:34Z",
+      "message": "data",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.06b.json",
+        "abilities.json": "abilities-7.06b.json"
+      }
+    },
+    {
+      "version": "7.06c",
+      "sha": "63dce28a417ce9a054030bc4f9c5258620413012",
+      "date": "2017-05-29T21:03:40Z",
+      "message": "data",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.06c.json",
+        "abilities.json": "abilities-7.06c.json"
+      }
+    },
+    {
+      "version": "7.06e",
+      "sha": "b759330db327efa7e63bcfc0ec00bacfaffbf0e8",
+      "date": "2017-08-01T04:08:06Z",
+      "message": "update",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.06e.json",
+        "abilities.json": "abilities-7.06e.json"
+      }
+    },
+    {
+      "version": "7.07",
+      "sha": "996d3d2cacd6fc9ffea07c7497a551e2352ab3cd",
+      "date": "2017-11-01T04:13:35Z",
+      "message": "remove cluster file updates",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.07.json",
+        "abilities.json": "abilities-7.07.json"
+      }
+    },
+    {
+      "version": "7.07b",
+      "sha": "fc8d801896672623b59de0fc75bad5bbbb5f442f",
+      "date": "2017-11-07T05:33:59Z",
+      "message": "update for 7.07b",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.07b.json",
+        "abilities.json": "abilities-7.07b.json"
+      }
+    },
+    {
+      "version": "7.07c",
+      "sha": "c5ccb45f5367dde8df028f68020413908070d26b",
+      "date": "2017-11-18T00:10:37Z",
+      "message": "7.07c",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.07c.json",
+        "abilities.json": "abilities-7.07c.json"
+      }
+    },
+    {
+      "version": "7.07d",
+      "sha": "2ea4c6dfd6969b85adcdcefb389455837a145f43",
+      "date": "2017-12-20T08:38:08Z",
+      "message": "update for 7.07d",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.07d.json",
+        "abilities.json": "abilities-7.07d.json"
+      }
+    },
+    {
+      "version": "7.08",
+      "sha": "97db6e84b625c6668d1fab3d20b40a939893b645",
+      "date": "2018-02-02T04:25:38Z",
+      "message": "update for 7.08",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.08.json",
+        "abilities.json": "abilities-7.08.json"
+      }
+    },
+    {
+      "version": "7.10",
+      "sha": "a6ba8b6c965fc73567d3dbab198b661b7d6c3ed9",
+      "date": "2018-03-02T07:13:14Z",
+      "message": "update 7.10",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.10.json",
+        "abilities.json": "abilities-7.10.json"
+      }
+    },
+    {
+      "version": "7.11",
+      "sha": "c36a7367ae23fc8bbaf6c855a1d6fc9eb9882fe0",
+      "date": "2018-03-16T04:40:42Z",
+      "message": "7.11",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.11.json",
+        "abilities.json": "abilities-7.11.json"
+      }
+    },
+    {
+      "version": "7.14",
+      "sha": "7fa7f8c6e20f356c95f1762a6c3c6764b2547296",
+      "date": "2018-04-26T16:45:03Z",
+      "message": "7.14",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.14.json",
+        "abilities.json": "abilities-7.14.json"
+      }
+    },
+    {
+      "version": "7.16",
+      "sha": "22f034069b4b984f57f05289872b8fc5cc7d57c4",
+      "date": "2018-05-27T19:28:17Z",
+      "message": "7.16",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.16.json",
+        "abilities.json": "abilities-7.16.json"
+      }
+    },
+    {
+      "version": "7.17",
+      "sha": "1eb49ce5e4944fcb50e9b1bc949a40f467b7c14a",
+      "date": "2018-06-11T05:07:41Z",
+      "message": "7.17",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.17.json",
+        "abilities.json": "abilities-7.17.json"
+      }
+    },
+    {
+      "version": "7.18",
+      "sha": "bd7400be39fd786d0c98c8da72821bc679430ee8",
+      "date": "2018-07-10T06:29:23Z",
+      "message": "7.19",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.18.json",
+        "abilities.json": "abilities-7.18.json"
+      }
+    },
+    {
+      "version": "7.19",
+      "sha": "b1dada6164486ccf88713af0f6b035005a02f4fb",
+      "date": "2018-08-27T04:00:35Z",
+      "message": "6.1.0",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.19.json",
+        "abilities.json": "abilities-7.19.json"
+      }
+    },
+    {
+      "version": "7.19c",
+      "sha": "1a4ad9679013bb28a1b6864cdca821f93fe91951",
+      "date": "2018-09-26T06:06:04Z",
+      "message": "7.19c",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.19c.json",
+        "abilities.json": "abilities-7.19c.json"
+      }
+    },
+    {
+      "version": "7.19d",
+      "sha": "a686872ff2c3606377a41e0ace01cb215fb89ddc",
+      "date": "2018-10-17T00:46:43Z",
+      "message": "updated to dota 7.19d",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.19d.json",
+        "abilities.json": "abilities-7.19d.json"
+      }
+    },
+    {
+      "version": "7.20",
+      "sha": "b472480b9590ba120823452dc74e15c7c369ff3d",
+      "date": "2018-11-20T06:19:28Z",
+      "message": "7.20",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.20.json",
+        "abilities.json": "abilities-7.20.json"
+      }
+    },
+    {
+      "version": "7.20b",
+      "sha": "d29179d0a5f55caf56bee1b436f3630a79dd0df5",
+      "date": "2018-11-21T05:31:30Z",
+      "message": "7.20b",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.20b.json",
+        "abilities.json": "abilities-7.20b.json"
+      }
+    },
+    {
+      "version": "7.20c",
+      "sha": "8b24a39067b80ddbc2a0f1450434278ef6f2c535",
+      "date": "2018-11-29T11:48:44Z",
+      "message": "7.20c",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.20c.json",
+        "abilities.json": "abilities-7.20c.json"
+      }
+    },
+    {
+      "version": "7.20d",
+      "sha": "7432b5dfc198ded353683ed28d306bbf1a859116",
+      "date": "2018-12-01T07:45:11Z",
+      "message": "7.20d",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.20d.json",
+        "abilities.json": "abilities-7.20d.json"
+      }
+    },
+    {
+      "version": "7.20e",
+      "sha": "7a90e808a44c9928e05e760af496365065ef65e7",
+      "date": "2018-12-10T15:17:40Z",
+      "message": "7.20e",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.20e.json",
+        "abilities.json": "abilities-7.20e.json"
+      }
+    },
+    {
+      "version": "7.21",
+      "sha": "c40f05b4c71019360e291166b11f28988b30372a",
+      "date": "2019-01-31T08:19:57Z",
+      "message": "7.21",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.21.json",
+        "abilities.json": "abilities-7.21.json"
+      }
+    },
+    {
+      "version": "7.21b",
+      "sha": "e4d1de6008c2a3cb6f47258bdf11b44f5d69951e",
+      "date": "2019-02-21T18:23:49Z",
+      "message": "New build",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.21b.json",
+        "abilities.json": "abilities-7.21b.json"
+      }
+    },
+    {
+      "version": "7.21c",
+      "sha": "d47a565309840135e719c238784705fae081b92e",
+      "date": "2019-03-06T05:56:11Z",
+      "message": "mars",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.21c.json",
+        "abilities.json": "abilities-7.21c.json"
+      }
+    },
+    {
+      "version": "7.21d",
+      "sha": "271d7c259f72295225daa5aacfda08bad1f24ede",
+      "date": "2019-03-30T06:18:29Z",
+      "message": "update images, latest 7.21 patches",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.21d.json",
+        "abilities.json": "abilities-7.21d.json"
+      }
+    },
+    {
+      "version": "7.22",
+      "sha": "ce35f7f59efc7c2e2f407d6238c98a8b37decc83",
+      "date": "2019-05-25T05:43:18Z",
+      "message": "7.22",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.22.json",
+        "abilities.json": "abilities-7.22.json"
+      }
+    },
+    {
+      "version": "7.22h",
+      "sha": "11729238e416d43d34bc0594990fcba4fc6fa74d",
+      "date": "2019-10-03T19:05:26Z",
+      "message": "7.22g",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.22h.json",
+        "abilities.json": "abilities-7.22h.json"
+      }
+    },
+    {
+      "version": "7.23",
+      "sha": "76d7464b0df6e6a247d398e39c8e0e90b94673de",
+      "date": "2019-11-27T07:10:33Z",
+      "message": "7.23",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.23.json",
+        "abilities.json": "abilities-7.23.json"
+      }
+    },
+    {
+      "version": "7.23c",
+      "sha": "c09b339e67d97468c113d72ea4cf54a2d9bc0137",
+      "date": "2019-12-07T21:33:44Z",
+      "message": "update",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.23c.json",
+        "abilities.json": "abilities-7.23c.json"
+      }
+    },
+    {
+      "version": "7.23e",
+      "sha": "16c1d8338a366cf957c1e47bc23a883f922e0b12",
+      "date": "2019-12-25T13:33:46Z",
+      "message": "update data",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.23e.json",
+        "abilities.json": "abilities-7.23e.json"
+      }
+    },
+    {
+      "version": "7.23f",
+      "sha": "4662855ff8e9512ee08ec6d482a84b41211f7f76",
+      "date": "2020-01-15T23:10:08Z",
+      "message": "update and abilitycastpoint",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.23f.json",
+        "abilities.json": "abilities-7.23f.json"
+      }
+    },
+    {
+      "version": "7.24",
+      "sha": "359b36328c48cee3d1de2457648cfe5f363f504b",
+      "date": "2020-01-27T08:40:49Z",
+      "message": "7.24",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.24.json",
+        "abilities.json": "abilities-7.24.json"
+      }
+    },
+    {
+      "version": "7.25",
+      "sha": "743b96923b881c39b99088a8c23c0065ae3efffa",
+      "date": "2020-03-17T19:16:04Z",
+      "message": "7.25",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.25.json",
+        "abilities.json": "abilities-7.25.json"
+      }
+    },
+    {
+      "version": "7.25c",
+      "sha": "f813cfbef43d1715d6734ca0a32379789917a0c6",
+      "date": "2020-04-08T11:04:34Z",
+      "message": "add html truncation for item abilities",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.25c.json",
+        "abilities.json": "abilities-7.25c.json"
+      }
+    },
+    {
+      "version": "7.26c",
+      "sha": "0849c470338a77eb57b2170f192b3327293bdaad",
+      "date": "2020-05-05T19:52:14Z",
+      "message": "build 6.35.0",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.26c.json",
+        "abilities.json": "abilities-7.26c.json"
+      }
+    },
+    {
+      "version": "7.27c",
+      "sha": "35dec1f9127135e36fab7570645c4cf544d3da81",
+      "date": "2020-08-17T16:42:58Z",
+      "message": "7.27c",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.27c.json",
+        "abilities.json": "abilities-7.27c.json"
+      }
+    },
+    {
+      "version": "7.28",
+      "sha": "098f9efabf0ee841a467e77cfe981d6feadb843d",
+      "date": "2020-12-18T22:35:05Z",
+      "message": "fix items extra asterisk",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.28.json",
+        "abilities.json": "abilities-7.28.json"
+      }
+    },
+    {
+      "version": "7.28a",
+      "sha": "5fc622aaffe5ce492251517b9156f46351be7c4d",
+      "date": "2020-12-24T10:52:51Z",
+      "message": "ran build script. current dota version is 7.28a",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.28a.json",
+        "abilities.json": "abilities-7.28a.json"
+      }
+    },
+    {
+      "version": "7.28b",
+      "sha": "4f06bb7078d183767708b8ebb3ca29d2f3af5b86",
+      "date": "2021-02-05T08:40:19Z",
+      "message": "update for 7.28b",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.28b.json",
+        "abilities.json": "abilities-7.28b.json"
+      }
+    },
+    {
+      "version": "7.29",
+      "sha": "e704553129d7a8be9b50beaf37934c6faf820dde",
+      "date": "2021-04-09T21:47:01Z",
+      "message": "7.29",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.29.json",
+        "abilities.json": "abilities-7.29.json"
+      }
+    },
+    {
+      "version": "7.29b",
+      "sha": "519cf6bce2049b59d8c09faa9f93b3e492ed9fd5",
+      "date": "2021-04-24T21:11:39Z",
+      "message": "update 7.29",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.29b.json",
+        "abilities.json": "abilities-7.29b.json"
+      }
+    },
+    {
+      "version": "7.30",
+      "sha": "cc7b1097ecb75be63c6594f2ff7dfad3504d375a",
+      "date": "2021-08-20T10:57:36Z",
+      "message": "New build",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.30.json",
+        "abilities.json": "abilities-7.30.json"
+      }
+    },
+    {
+      "version": "7.30d",
+      "sha": "1a0ea0d41f54d907207f779ace8dda0813bd848d",
+      "date": "2021-10-01T17:23:47Z",
+      "message": "New build",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.30d.json",
+        "abilities.json": "abilities-7.30d.json"
+      }
+    },
+    {
+      "version": "7.30e",
+      "sha": "9c9032c565c7ee9cff02ad8ad6f3dcb34b186ae7",
+      "date": "2021-10-29T01:30:27Z",
+      "message": "7.30e",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.30e.json",
+        "abilities.json": "abilities-7.30e.json"
+      }
+    },
+    {
+      "version": "7.31",
+      "sha": "3b36183e1214e12a56d9127040942c137b02c7e7",
+      "date": "2022-02-23T23:47:45Z",
+      "message": "7.31",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.31.json",
+        "abilities.json": "abilities-7.31.json"
+      }
+    },
+    {
+      "version": "7.31b",
+      "sha": "ccdaa76bd2784a43ba99d8410c986960fb16d1f9",
+      "date": "2022-03-02T08:09:17Z",
+      "message": "7.31b",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.31b.json",
+        "abilities.json": "abilities-7.31b.json"
+      }
+    },
+    {
+      "version": "7.31c",
+      "sha": "0d4e0fa0c80887ae0c5525849fbee58055b6f561",
+      "date": "2022-05-07T12:00:22Z",
+      "message": "7.31c",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.31c.json",
+        "abilities.json": "abilities-7.31c.json"
+      }
+    },
+    {
+      "version": "7.32",
+      "sha": "5cf1fab276c8aef23296308f6c6f3268c5be1800",
+      "date": "2022-08-24T02:16:29Z",
+      "message": "7.32",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.32.json",
+        "abilities.json": "abilities-7.32.json"
+      }
+    },
+    {
+      "version": "7.32c",
+      "sha": "1537a75663c5204a56810b34865613abdd18de7b",
+      "date": "2022-11-04T14:43:19Z",
+      "message": "various constants fixes",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.32c.json",
+        "abilities.json": "abilities-7.32c.json"
+      }
+    },
+    {
+      "version": "7.32e",
+      "sha": "69231740201e2fca76f44a4adcde94cc823528ac",
+      "date": "2023-03-07T09:05:43Z",
+      "message": "7.32d",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.32e.json",
+        "abilities.json": "abilities-7.32e.json"
+      }
+    },
+    {
+      "version": "7.33",
+      "sha": "17378ea7d4d6cd43011aec2739c10887fcbf56f3",
+      "date": "2023-04-21T01:22:48Z",
+      "message": "7.33",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.33.json",
+        "abilities.json": "abilities-7.33.json"
+      }
+    },
+    {
+      "version": "7.34",
+      "sha": "25890857e6a8d11fb6bcf907689187c048feb1a1",
+      "date": "2023-08-11T14:47:18Z",
+      "message": "update patch",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.34.json",
+        "abilities.json": "abilities-7.34.json"
+      }
+    },
+    {
+      "version": "7.35b",
+      "sha": "a1f39740a3f37fc248051829eb1bcc1befe7676d",
+      "date": "2024-01-07T11:23:38Z",
+      "message": "avoid vdf mutations and refactor",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.35b.json",
+        "abilities.json": "abilities-7.35b.json"
+      }
+    },
+    {
+      "version": "7.35d",
+      "sha": "15c92573596a49209b3094dec70ba99b5111cfde",
+      "date": "2024-03-23T09:06:07Z",
+      "message": "7.35d",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.35d.json",
+        "abilities.json": "abilities-7.35d.json"
+      }
+    },
+    {
+      "version": "7.36",
+      "sha": "c68095d5f214acb73b4ea5fc8b12c8e8e0d44384",
+      "date": "2024-05-23T11:37:43Z",
+      "message": "added facets to abilities.json",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.36.json",
+        "abilities.json": "abilities-7.36.json"
+      }
+    },
+    {
+      "version": "7.36a",
+      "sha": "dcdaf9c7b3de8fd607c63fef251720f8fc7d9c85",
+      "date": "2024-06-01T17:22:13Z",
+      "message": "Insert attributes to facets",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.36a.json",
+        "abilities.json": "abilities-7.36a.json"
+      }
+    },
+    {
+      "version": "7.36c",
+      "sha": "071e8506db08508e6209936159de5555485fb382",
+      "date": "2024-07-02T15:10:33Z",
+      "message": "new: add is_innate to abilities",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.36c.json",
+        "abilities.json": "abilities-7.36c.json"
+      }
+    },
+    {
+      "version": "7.37",
+      "sha": "0eae4f43ca10a6c719f109f83d519e91710d296d",
+      "date": "2024-08-10T11:51:36Z",
+      "message": "Fix deprecated facets missing",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.37.json",
+        "abilities.json": "abilities-7.37.json"
+      }
+    },
+    {
+      "version": "7.37b",
+      "sha": "5d2df3c98f7a57e5e2d2b54e9ac3c06910d5c3be",
+      "date": "2024-08-24T23:49:03Z",
+      "message": "ringmaster",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.37b.json",
+        "abilities.json": "abilities-7.37b.json"
+      }
+    },
+    {
+      "version": "7.37c",
+      "sha": "63b57ea1083c6bb6af89ce298af32d685fbdc803",
+      "date": "2024-09-04T09:35:52Z",
+      "message": "fix patch number",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.37c.json",
+        "abilities.json": "abilities-7.37c.json"
+      }
+    },
+    {
+      "version": "7.37d",
+      "sha": "d6d00ce70a24bee82dc9fccd18dc0d2370ea120f",
+      "date": "2024-11-08T02:51:10Z",
+      "message": "new: kez",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.37d.json",
+        "abilities.json": "abilities-7.37d.json"
+      }
+    },
+    {
+      "version": "7.37e",
+      "sha": "f94368e89b5aadbb51461f859432b8f9d170a749",
+      "date": "2024-12-04T13:39:14Z",
+      "message": "7.37e",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.37e.json",
+        "abilities.json": "abilities-7.37e.json"
+      }
+    },
+    {
+      "version": "7.38",
+      "sha": "84312605a12d636b8630495708e9485efcfef465",
+      "date": "2025-02-25T17:19:52Z",
+      "message": "minor fix",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.38.json",
+        "abilities.json": "abilities-7.38.json"
+      }
+    },
+    {
+      "version": "7.39",
+      "sha": "7810e1b2914abe801ddc5a5c445ea0b8f06ec913",
+      "date": "2025-05-22T23:36:24Z",
+      "message": "7.39",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.39.json",
+        "abilities.json": "abilities-7.39.json"
+      }
+    },
+    {
+      "version": "7.39d",
+      "sha": "06d368dcf747579d0379f4d3915bb2dbb51d435a",
+      "date": "2025-09-02T23:26:01Z",
+      "message": "convert to esm",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.39d.json",
+        "abilities.json": "abilities-7.39d.json"
+      }
+    },
+    {
+      "version": "7.40",
+      "sha": "0c16f00b08b7c7eff36c898ebad2dcb6d957aae2",
+      "date": "2025-12-16T00:54:36Z",
+      "message": "7.40",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.40.json",
+        "abilities.json": "abilities-7.40.json"
+      }
+    },
+    {
+      "version": "7.41",
+      "sha": "b72f23e1ab2b64f54cc063250a44646d6d692303",
+      "date": "2026-03-25T23:00:45Z",
+      "message": "rebuild",
+      "files": {
+        "hero_abilities.json": "hero_abilities-7.41.json",
+        "abilities.json": "abilities-7.41.json"
+      }
+    }
+  ]
+}

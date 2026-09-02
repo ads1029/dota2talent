@@ -1,0 +1,6330 @@
+[
+  {
+    "heroId": "abaddon",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+25 Damage",
+      "textZh": "+25 攻击力"
+    },
+    "right": {
+      "textEn": "+15% XP Gain",
+      "textZh": "+15% 经验获取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "abaddon",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+5 Armor",
+      "textZh": "+5 护甲"
+    },
+    "right": {
+      "textEn": "+200 Mana",
+      "textZh": "+200 魔法"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "abaddon",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+25 Movement Speed",
+      "textZh": "+25 移动速度"
+    },
+    "right": {
+      "textEn": "15% Cooldown Reduction",
+      "textZh": "15% 冷却时间减少"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "abaddon",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+25 Strength",
+      "textZh": "+25 力量"
+    },
+    "right": {
+      "textEn": "+200 Shield HP",
+      "textZh": "+200 护盾生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "alchemist",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+20 Damage",
+      "textZh": "+20 攻击力"
+    },
+    "right": {
+      "textEn": "+4 Armor",
+      "textZh": "+4 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "alchemist",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "right": {
+      "textEn": "+6 All Stats",
+      "textZh": "+6 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "alchemist",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+30 Attack Speed",
+      "textZh": "+30 攻击速度"
+    },
+    "right": {
+      "textEn": "+300 Health",
+      "textZh": "+300 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "alchemist",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "30% Lifesteal",
+      "textZh": "30% 吸血"
+    },
+    "right": {
+      "textEn": "-4 Acid Spray Armor",
+      "textZh": "-4 酸性喷雾护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ancient-apparition",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+60 Gold/Min",
+      "textZh": "+60 金钱/分"
+    },
+    "right": {
+      "textEn": "+8% Spell Amplification",
+      "textZh": "+8% 技能增强"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ancient-apparition",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+15 Intelligence",
+      "textZh": "+15 智力"
+    },
+    "right": {
+      "textEn": "+25 Health Regen",
+      "textZh": "+25 生命恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ancient-apparition",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+35 Movement Speed",
+      "textZh": "+35 移动速度"
+    },
+    "right": {
+      "textEn": "-30s Respawn Time",
+      "textZh": "-30秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ancient-apparition",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+80 Chilling Touch Damage",
+      "textZh": "+80 极寒之触伤害"
+    },
+    "right": {
+      "textEn": "3 Charges of Cold Feet",
+      "textZh": "3 寒霜之足能量点数"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "anti-mage",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+6 Strength",
+      "textZh": "+6 力量"
+    },
+    "right": {
+      "textEn": "+20 Damage",
+      "textZh": "+20 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "anti-mage",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+20 Attack Speed",
+      "textZh": "+20 攻击速度"
+    },
+    "right": {
+      "textEn": "+250 HP",
+      "textZh": "+250 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "anti-mage",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "15% Evasion",
+      "textZh": "15% 闪避"
+    },
+    "right": {
+      "textEn": "+10 All Stats",
+      "textZh": "+10 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "anti-mage",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "-2s Blink Cooldown",
+      "textZh": "-2秒 闪烁冷却"
+    },
+    "right": {
+      "textEn": "+25 Agility",
+      "textZh": "+25 敏捷"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "arc-warden",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+125 Health",
+      "textZh": "+125 生命"
+    },
+    "right": {
+      "textEn": "+25 Attack Speed",
+      "textZh": "+25 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "arc-warden",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+30 Damage",
+      "textZh": "+30 攻击力"
+    },
+    "right": {
+      "textEn": "+8 Strength",
+      "textZh": "+8 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "arc-warden",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "10% Cooldown Reduction",
+      "textZh": "10% 冷却时间减少"
+    },
+    "right": {
+      "textEn": "+100 Attack Range",
+      "textZh": "+100 攻击距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "arc-warden",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "30% Lifesteal",
+      "textZh": "30% 吸血"
+    },
+    "right": {
+      "textEn": "+175 Spark Wraith Damage",
+      "textZh": "+175 闪光幽魂伤害"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "axe",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+6 Strength",
+      "textZh": "+6 力量"
+    },
+    "right": {
+      "textEn": "+3 Mana Regen",
+      "textZh": "+3 魔法恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "axe",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+75 Damage",
+      "textZh": "+75 攻击力"
+    },
+    "right": {
+      "textEn": "+250 Health",
+      "textZh": "+250 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "axe",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+25 Health Regen",
+      "textZh": "+25 生命恢复"
+    },
+    "right": {
+      "textEn": "+30 Movement Speed",
+      "textZh": "+30 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "axe",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+100 Battle Hunger DPS",
+      "textZh": "+100 战斗饥渴每秒伤害"
+    },
+    "right": {
+      "textEn": "+15 Armor",
+      "textZh": "+15 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bane",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+6 Armor",
+      "textZh": "+6 护甲"
+    },
+    "right": {
+      "textEn": "+200 Mana",
+      "textZh": "+200 魔法"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bane",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+25% XP Gain",
+      "textZh": "+25% 经验获取"
+    },
+    "right": {
+      "textEn": "+250 Health",
+      "textZh": "+250 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bane",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+35 Movement Speed",
+      "textZh": "+35 移动速度"
+    },
+    "right": {
+      "textEn": "+175 Cast Range",
+      "textZh": "+175 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bane",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+120 Enfeeble Damage Reduction",
+      "textZh": "+120 虚弱攻击力降低效果"
+    },
+    "right": {
+      "textEn": "+200 Brain Sap Damage/Heal",
+      "textZh": "+200 蚀脑伤害/治疗"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "batrider",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+10 Intelligence",
+      "textZh": "+10 智力"
+    },
+    "right": {
+      "textEn": "+4 Armor",
+      "textZh": "+4 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "batrider",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+175 Health",
+      "textZh": "+175 生命"
+    },
+    "right": {
+      "textEn": "+5% Spell Amplification",
+      "textZh": "+5% 技能增强"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "batrider",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "15% Cooldown Reduction",
+      "textZh": "15% 冷却时间减少"
+    },
+    "right": {
+      "textEn": "+35 Movement Speed",
+      "textZh": "+35 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "batrider",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+8s Firefly Duration",
+      "textZh": "+8秒 火焰飞行持续时间"
+    },
+    "right": {
+      "textEn": "+200 Flamebreak AoE/Knockback",
+      "textZh": "+200 烈焰破击范围/击退距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "beastmaster",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15% XP Gain",
+      "textZh": "+15% 经验获取"
+    },
+    "right": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "beastmaster",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+12 Strength",
+      "textZh": "+12 力量"
+    },
+    "right": {
+      "textEn": "-25s Respawn Time",
+      "textZh": "-25秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "beastmaster",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "12% Cooldown Reduction",
+      "textZh": "12% 冷却时间减少"
+    },
+    "right": {
+      "textEn": "+300 Health",
+      "textZh": "+300 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "beastmaster",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+175 Wild Axes Damage",
+      "textZh": "+175 野性之斧伤害"
+    },
+    "right": {
+      "textEn": "+120 Damage",
+      "textZh": "+120 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bloodseeker",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+5 Armor",
+      "textZh": "+5 护甲"
+    },
+    "right": {
+      "textEn": "+25 Damage",
+      "textZh": "+25 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bloodseeker",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+30 Attack Speed",
+      "textZh": "+30 攻击速度"
+    },
+    "right": {
+      "textEn": "+250 Health",
+      "textZh": "+250 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bloodseeker",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "-30s Respawn Time",
+      "textZh": "-30秒 复活时间"
+    },
+    "right": {
+      "textEn": "+10 All Stats",
+      "textZh": "+10 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bloodseeker",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "-7s Bloodrite Cooldown",
+      "textZh": "-7秒 血祭冷却"
+    },
+    "right": {
+      "textEn": "30% Lifesteal",
+      "textZh": "30% 吸血"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bounty-hunter",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+175 Health",
+      "textZh": "+175 生命"
+    },
+    "right": {
+      "textEn": "+15% XP Gain",
+      "textZh": "+15% 经验获取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bounty-hunter",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+40 Attack Speed",
+      "textZh": "+40 攻击速度"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bounty-hunter",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+10% Spell Amplification",
+      "textZh": "+10% 技能增强"
+    },
+    "right": {
+      "textEn": "+100 Damage",
+      "textZh": "+100 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bounty-hunter",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "20% Evasion",
+      "textZh": "20% 闪避"
+    },
+    "right": {
+      "textEn": "-5s Jinada Cooldown",
+      "textZh": "-5秒 忍术冷却"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "brewmaster",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+25 Attack Speed",
+      "textZh": "+25 攻击速度"
+    },
+    "right": {
+      "textEn": "+3 Mana Regen",
+      "textZh": "+3 魔法恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "brewmaster",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "right": {
+      "textEn": "+10% Magic Resistance",
+      "textZh": "+10% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "brewmaster",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "-30s Respawn Time",
+      "textZh": "-30秒 复活时间"
+    },
+    "right": {
+      "textEn": "+20 Strength",
+      "textZh": "+20 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "brewmaster",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+14 Primal Split Unit Armor",
+      "textZh": "+14 元素分离单位护甲"
+    },
+    "right": {
+      "textEn": "+75 Damage",
+      "textZh": "+75 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bristleback",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+7 Strength",
+      "textZh": "+7 力量"
+    },
+    "right": {
+      "textEn": "+2 Mana Regen",
+      "textZh": "+2 魔法恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bristleback",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "right": {
+      "textEn": "+200 Health",
+      "textZh": "+200 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bristleback",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+45 Attack Speed",
+      "textZh": "+45 攻击速度"
+    },
+    "right": {
+      "textEn": "-30s Respawn Time",
+      "textZh": "-30秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "bristleback",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+25 Health Regen",
+      "textZh": "+25 生命恢复"
+    },
+    "right": {
+      "textEn": "+4 Max Goo Stacks",
+      "textZh": "+4 鼻液叠加上限"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "broodmother",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+10 Agility",
+      "textZh": "+10 敏捷"
+    },
+    "right": {
+      "textEn": "+15% XP Gain",
+      "textZh": "+15% 经验获取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "broodmother",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "20% Cooldown Reduction",
+      "textZh": "20% 冷却时间减少"
+    },
+    "right": {
+      "textEn": "+7 Armor",
+      "textZh": "+7 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "broodmother",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+300 Health",
+      "textZh": "+300 生命"
+    },
+    "right": {
+      "textEn": "+50 Attack Speed",
+      "textZh": "+50 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "broodmother",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+8 Max Webs",
+      "textZh": "+8 蛛网数量上限"
+    },
+    "right": {
+      "textEn": "+200 Spiderlings Health",
+      "textZh": "+200 小蜘蛛生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "centaur-warrunner",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+30 Damage",
+      "textZh": "+30 攻击力"
+    },
+    "right": {
+      "textEn": "+2 Mana Regen",
+      "textZh": "+2 魔法恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "centaur-warrunner",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "10% Evasion",
+      "textZh": "10% 闪避"
+    },
+    "right": {
+      "textEn": "+10% Magic Resistance",
+      "textZh": "+10% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "centaur-warrunner",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+10% Spell Amplification",
+      "textZh": "+10% 技能增强"
+    },
+    "right": {
+      "textEn": "+15 Strength",
+      "textZh": "+15 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "centaur-warrunner",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+1s Hoof Stomp Duration",
+      "textZh": "+1秒 马蹄践踏持续时间"
+    },
+    "right": {
+      "textEn": "Gains Return Aura",
+      "textZh": "获得反击光环"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "chaos-knight",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15 Attack Speed",
+      "textZh": "+15 攻击速度"
+    },
+    "right": {
+      "textEn": "+7 Intelligence",
+      "textZh": "+7 智力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "chaos-knight",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "right": {
+      "textEn": "+10 Strength",
+      "textZh": "+10 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "chaos-knight",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+120 Gold/Min",
+      "textZh": "+120 金钱/分"
+    },
+    "right": {
+      "textEn": "+12 All Stats",
+      "textZh": "+12 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "chaos-knight",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "Reality Rift Pierces Spell Immunity",
+      "textZh": "实相裂隙无视技能免疫"
+    },
+    "right": {
+      "textEn": "20% Cooldown Reduction",
+      "textZh": "20% 冷却时间减少"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "chen",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "right": {
+      "textEn": "+125 Cast Range",
+      "textZh": "+125 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "chen",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+200 Health",
+      "textZh": "+200 生命"
+    },
+    "right": {
+      "textEn": "+25% Spell Amplification",
+      "textZh": "+25% 技能增强"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "chen",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+90 Gold/Min",
+      "textZh": "+90 金钱/分"
+    },
+    "right": {
+      "textEn": "-40s Respawn Time",
+      "textZh": "-40秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "chen",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+2 Holy Persuasion Max Count",
+      "textZh": "+2 神圣劝化数量上限"
+    },
+    "right": {
+      "textEn": "+200 Hand of God Heal",
+      "textZh": "+200 上帝之手治疗量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "clinkz",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+10 Intelligence",
+      "textZh": "+10 智力"
+    },
+    "right": {
+      "textEn": "+10% Magic Resistance",
+      "textZh": "+10% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "clinkz",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+12 Strength",
+      "textZh": "+12 力量"
+    },
+    "right": {
+      "textEn": "+30 Searing Arrows Damage",
+      "textZh": "+30 灼热之箭伤害"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "clinkz",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "20% Evasion",
+      "textZh": "20% 闪避"
+    },
+    "right": {
+      "textEn": "+10 All Stats",
+      "textZh": "+10 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "clinkz",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+70 Strafe Attack Speed",
+      "textZh": "+70 扫射攻击速度"
+    },
+    "right": {
+      "textEn": "+125 Attack Range",
+      "textZh": "+125 攻击距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "clockwerk",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+4 Armor",
+      "textZh": "+4 护甲"
+    },
+    "right": {
+      "textEn": "+200 Mana",
+      "textZh": "+200 魔法"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "clockwerk",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+40 Damage",
+      "textZh": "+40 攻击力"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "clockwerk",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "-25s Respawn Time",
+      "textZh": "-25秒 复活时间"
+    },
+    "right": {
+      "textEn": "+12% Magic Resistance",
+      "textZh": "+12% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "clockwerk",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+10s Battery Assault Duration",
+      "textZh": "+10秒 弹幕冲击持续时间"
+    },
+    "right": {
+      "textEn": "+400 Health",
+      "textZh": "+400 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "crystal-maiden",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15% Magic Resistance",
+      "textZh": "+15% 魔法抗性"
+    },
+    "right": {
+      "textEn": "+50 Damage",
+      "textZh": "+50 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "crystal-maiden",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+125 Cast Range",
+      "textZh": "+125 施法距离"
+    },
+    "right": {
+      "textEn": "+200 Health",
+      "textZh": "+200 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "crystal-maiden",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+120 Gold/Min",
+      "textZh": "+120 金钱/分"
+    },
+    "right": {
+      "textEn": "-35s Respawn Time",
+      "textZh": "-35秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "crystal-maiden",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+1.5s Frostbite Duration",
+      "textZh": "+1.5秒 冰封禁制持续时间"
+    },
+    "right": {
+      "textEn": "+200 Crystal Nova Damage",
+      "textZh": "+200 冰霜新星伤害"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "dark-seer",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "12% Evasion",
+      "textZh": "12% 闪避"
+    },
+    "right": {
+      "textEn": "+100 Cast Range",
+      "textZh": "+100 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "dark-seer",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+90 Damage",
+      "textZh": "+90 攻击力"
+    },
+    "right": {
+      "textEn": "+14 Health Regen",
+      "textZh": "+14 生命恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "dark-seer",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+12 Strength",
+      "textZh": "+12 力量"
+    },
+    "right": {
+      "textEn": "+25 Intelligence",
+      "textZh": "+25 智力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "dark-seer",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "12% Cooldown Reduction",
+      "textZh": "12% 冷却时间减少"
+    },
+    "right": {
+      "textEn": "+70 Ion Shell Damage",
+      "textZh": "+70 离子外壳伤害"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "dazzle",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+10 Intelligence",
+      "textZh": "+10 智力"
+    },
+    "right": {
+      "textEn": "+125 Health",
+      "textZh": "+125 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "dazzle",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+100 Cast Range",
+      "textZh": "+100 施法距离"
+    },
+    "right": {
+      "textEn": "+40 Damage",
+      "textZh": "+40 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "dazzle",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+25 Movement Speed",
+      "textZh": "+25 移动速度"
+    },
+    "right": {
+      "textEn": "-30s Respawn Time",
+      "textZh": "-30秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "dazzle",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "-6s Poison Touch Cooldown",
+      "textZh": "-6秒 剧毒之触冷却"
+    },
+    "right": {
+      "textEn": "+60 Shadow Wave Heal",
+      "textZh": "+60 暗影波治疗量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "death-prophet",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+4% Spell Amplification",
+      "textZh": "+4% 技能增强"
+    },
+    "right": {
+      "textEn": "+6 Strength",
+      "textZh": "+6 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "death-prophet",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+8% Magic Resistance",
+      "textZh": "+8% 魔法抗性"
+    },
+    "right": {
+      "textEn": "+75 Cast Range",
+      "textZh": "+75 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "death-prophet",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "10% Cooldown Reduction",
+      "textZh": "10% 冷却时间减少"
+    },
+    "right": {
+      "textEn": "+25 Movement Speed",
+      "textZh": "+25 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "death-prophet",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+400 Health",
+      "textZh": "+400 生命"
+    },
+    "right": {
+      "textEn": "+6 Exorcism Spirits",
+      "textZh": "+6 驱使恶灵数量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "disruptor",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+100 Cast Range",
+      "textZh": "+100 施法距离"
+    },
+    "right": {
+      "textEn": "+60 Gold/Min",
+      "textZh": "+60 金钱/分"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "disruptor",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+200 Health",
+      "textZh": "+200 生命"
+    },
+    "right": {
+      "textEn": "-30s Respawn Time",
+      "textZh": "-30秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "disruptor",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "15% Cooldown Reduction",
+      "textZh": "15% 冷却时间减少"
+    },
+    "right": {
+      "textEn": "+10% Spell Amplification",
+      "textZh": "+10% 技能增强"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "disruptor",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+30% Magic Resistance",
+      "textZh": "+30% 魔法抗性"
+    },
+    "right": {
+      "textEn": "+4 Thunder Strike Hits",
+      "textZh": "+4 雷霆之击打击次数"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "doom",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "right": {
+      "textEn": "+8 Intelligence",
+      "textZh": "+8 智力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "doom",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "right": {
+      "textEn": "+6 Armor",
+      "textZh": "+6 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "doom",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+50 Damage",
+      "textZh": "+50 攻击力"
+    },
+    "right": {
+      "textEn": "+20 Health Regen",
+      "textZh": "+20 生命恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "doom",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+2% Infernal Blade Damage",
+      "textZh": "+2% 阎刃伤害"
+    },
+    "right": {
+      "textEn": "Devour Can Target Ancients",
+      "textZh": "吞噬可作用远古"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "dragon-knight",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+6 Strength",
+      "textZh": "+6 力量"
+    },
+    "right": {
+      "textEn": "+20 Attack Speed",
+      "textZh": "+20 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "dragon-knight",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+25% XP Gain",
+      "textZh": "+25% 经验获取"
+    },
+    "right": {
+      "textEn": "+40 Damage",
+      "textZh": "+40 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "dragon-knight",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+120 Gold/Min",
+      "textZh": "+120 金钱/分"
+    },
+    "right": {
+      "textEn": "+300 Health",
+      "textZh": "+300 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "dragon-knight",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "2x Dragon Blood Regen/Armor",
+      "textZh": "2倍 龙族血统生命恢复/护甲"
+    },
+    "right": {
+      "textEn": "+50 Movement Speed",
+      "textZh": "+50 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "drow-ranger",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "right": {
+      "textEn": "+5 All Stats",
+      "textZh": "+5 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "drow-ranger",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+175 Health",
+      "textZh": "+175 生命"
+    },
+    "right": {
+      "textEn": "+20 Attack Speed",
+      "textZh": "+20 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "drow-ranger",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+6% Precision Aura Damage",
+      "textZh": "+6% 精准光环攻击力"
+    },
+    "right": {
+      "textEn": "+14 Strength",
+      "textZh": "+14 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "drow-ranger",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+350 Gust Distance/Knockback",
+      "textZh": "+350 狂风距离/击退"
+    },
+    "right": {
+      "textEn": "+25 Marksmanship Agility",
+      "textZh": "+25 射手天赋敏捷加成"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "earth-spirit",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+10 Intelligence",
+      "textZh": "+10 智力"
+    },
+    "right": {
+      "textEn": "+4 Armor",
+      "textZh": "+4 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "earth-spirit",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+15% Magic Resistance",
+      "textZh": "+15% 魔法抗性"
+    },
+    "right": {
+      "textEn": "+90 Gold/Min",
+      "textZh": "+90 金钱/分"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "earth-spirit",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+15% Spell Amplification",
+      "textZh": "+15% 技能增强"
+    },
+    "right": {
+      "textEn": "+300 Health",
+      "textZh": "+300 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "earth-spirit",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+300 Rolling Boulder Damage",
+      "textZh": "+300 巨石翻滚伤害"
+    },
+    "right": {
+      "textEn": "-35s Respawn Time",
+      "textZh": "-35秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "earthshaker",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+250 Mana",
+      "textZh": "+250 魔法"
+    },
+    "right": {
+      "textEn": "+8 Strength",
+      "textZh": "+8 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "earthshaker",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "right": {
+      "textEn": "+50 Damage",
+      "textZh": "+50 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "earthshaker",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+10% Spell Amplification",
+      "textZh": "+10% 技能增强"
+    },
+    "right": {
+      "textEn": "-35s Respawn Time",
+      "textZh": "-35秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "earthshaker",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+500 Health",
+      "textZh": "+500 生命"
+    },
+    "right": {
+      "textEn": "-2s Enchant Totem Cooldown",
+      "textZh": "-2秒 强化图腾冷却"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "elder-titan",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "-20s Respawn Time",
+      "textZh": "-20秒 复活时间"
+    },
+    "right": {
+      "textEn": "+10 Strength",
+      "textZh": "+10 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "elder-titan",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+275 Health",
+      "textZh": "+275 生命"
+    },
+    "right": {
+      "textEn": "+25% XP Gain",
+      "textZh": "+25% 经验获取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "elder-titan",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+12% Magic Resistance",
+      "textZh": "+12% 魔法抗性"
+    },
+    "right": {
+      "textEn": "+50 Attack Speed",
+      "textZh": "+50 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "elder-titan",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+15 Armor",
+      "textZh": "+15 护甲"
+    },
+    "right": {
+      "textEn": "+80 Astral Spirit Hero Attack",
+      "textZh": "+80 灵体游魂英雄攻击力加成"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ember-spirit",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15% Spell Amplification",
+      "textZh": "+15% 技能增强"
+    },
+    "right": {
+      "textEn": "+20 Damage",
+      "textZh": "+20 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ember-spirit",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "right": {
+      "textEn": "+6 All Stats",
+      "textZh": "+6 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ember-spirit",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+8 Armor",
+      "textZh": "+8 护甲"
+    },
+    "right": {
+      "textEn": "15% Cooldown Reduction [Note: Affects remnant charges]",
+      "textZh": "15% 冷却时间减少 [注：会影响残焰的充能时间]"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ember-spirit",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+500 Flame Guard Absorption",
+      "textZh": "+500 烈火罩吸收量"
+    },
+    "right": {
+      "textEn": "+2s Searing Chains",
+      "textZh": "+2秒 炎阳索持续时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "enchantress",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+5 All Stats",
+      "textZh": "+5 全属性"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "enchantress",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+8s Nature's Attendants Duration",
+      "textZh": "+8秒 自然之助持续时间"
+    },
+    "right": {
+      "textEn": "+40 Damage",
+      "textZh": "+40 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "enchantress",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+12% Magic Resistance",
+      "textZh": "+12% 魔法抗性"
+    },
+    "right": {
+      "textEn": "-25s Respawn Time",
+      "textZh": "-25秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "enchantress",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+10 Nature's Attendants Wisps",
+      "textZh": "+10 自然之助精灵数量"
+    },
+    "right": {
+      "textEn": "+25 Intelligence",
+      "textZh": "+25 智力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "enigma",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "right": {
+      "textEn": "+12% Magic Resistance",
+      "textZh": "+12% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "enigma",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "15% Cooldown Reduction",
+      "textZh": "15% 冷却时间减少"
+    },
+    "right": {
+      "textEn": "+120 Gold/Min",
+      "textZh": "+120 金钱/分"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "enigma",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+300 Health",
+      "textZh": "+300 生命"
+    },
+    "right": {
+      "textEn": "-30s Respawn Time",
+      "textZh": "-30秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "enigma",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+8 Demonic Conversion Eidolons",
+      "textZh": "+8 恶魔转化虚灵体"
+    },
+    "right": {
+      "textEn": "+12 Armor",
+      "textZh": "+12 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "faceless-void",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15 Attack Speed",
+      "textZh": "+15 攻击速度"
+    },
+    "right": {
+      "textEn": "+5 Strength",
+      "textZh": "+5 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "faceless-void",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+7 Armor",
+      "textZh": "+7 护甲"
+    },
+    "right": {
+      "textEn": "+25 Damage",
+      "textZh": "+25 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "faceless-void",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+300 Health",
+      "textZh": "+300 生命"
+    },
+    "right": {
+      "textEn": "+120 Gold/Min",
+      "textZh": "+120 金钱/分"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "faceless-void",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+600 Timewalk Cast Range",
+      "textZh": "+600 时间漫游施法距离"
+    },
+    "right": {
+      "textEn": "20% Evasion",
+      "textZh": "20% 闪避"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "gyrocopter",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+6% Spell Amplification",
+      "textZh": "+6% 技能增强"
+    },
+    "right": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "gyrocopter",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+10% Magic Resistance",
+      "textZh": "+10% 魔法抗性"
+    },
+    "right": {
+      "textEn": "+30 Damage",
+      "textZh": "+30 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "gyrocopter",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+25 Movement Speed",
+      "textZh": "+25 移动速度"
+    },
+    "right": {
+      "textEn": "20% Cooldown Reduction",
+      "textZh": "20% 冷却时间减少"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "gyrocopter",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+3 Homing Missile Charges",
+      "textZh": "+3 追踪导弹能量点数"
+    },
+    "right": {
+      "textEn": "+4 Flak Cannon Attacks",
+      "textZh": "+4 高射火炮攻击次数"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "huskar",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "huskar",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+30 Damage",
+      "textZh": "+30 攻击力"
+    },
+    "right": {
+      "textEn": "15% Lifesteal",
+      "textZh": "15% 吸血"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "huskar",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+15 Strength",
+      "textZh": "+15 力量"
+    },
+    "right": {
+      "textEn": "+40 Attack Speed",
+      "textZh": "+40 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "huskar",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+100 Attack Range",
+      "textZh": "+100 攻击距离"
+    },
+    "right": {
+      "textEn": "+400 Life Break Cast Range",
+      "textZh": "+400 牺牲施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "invoker",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15 Damage",
+      "textZh": "+15 攻击力"
+    },
+    "right": {
+      "textEn": "+125 Health",
+      "textZh": "+125 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "invoker",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+1 Forged Spirit Summoned",
+      "textZh": "+1 熔炉精灵召唤数量"
+    },
+    "right": {
+      "textEn": "+20% XP Gain",
+      "textZh": "+20% 经验获取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "invoker",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+7 All Stats",
+      "textZh": "+7 全属性"
+    },
+    "right": {
+      "textEn": "+35 Attack Speed",
+      "textZh": "+35 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "invoker",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "AoE Deafening Blast",
+      "textZh": "环形超震声波"
+    },
+    "right": {
+      "textEn": "-15s Tornado Cooldown",
+      "textZh": "-15秒 强袭飓风冷却"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "io",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+10% Magic Resistance",
+      "textZh": "+10% 魔法抗性"
+    },
+    "right": {
+      "textEn": "+6 Armor",
+      "textZh": "+6 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "io",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+10 Mana Regen",
+      "textZh": "+10 魔法恢复"
+    },
+    "right": {
+      "textEn": "+10 Strength",
+      "textZh": "+10 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "io",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+20 Health Regen",
+      "textZh": "+20 生命恢复"
+    },
+    "right": {
+      "textEn": "+120 Gold/Min",
+      "textZh": "+120 金钱/分"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "io",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+150 Spirits Damage",
+      "textZh": "+150 幽魂伤害"
+    },
+    "right": {
+      "textEn": "-40s Respawn Time",
+      "textZh": "-40秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "jakiro",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15% XP Gain",
+      "textZh": "+15% 经验获取"
+    },
+    "right": {
+      "textEn": "+8% Spell Amplification",
+      "textZh": "+8% 技能增强"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "jakiro",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+125 Cast Range",
+      "textZh": "+125 施法距离"
+    },
+    "right": {
+      "textEn": "+250 Health",
+      "textZh": "+250 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "jakiro",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+400 Attack Range",
+      "textZh": "+400 攻击距离"
+    },
+    "right": {
+      "textEn": "+150 Gold/Min",
+      "textZh": "+150 金钱/分"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "jakiro",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+1.25s Ice Path Duration",
+      "textZh": "+1.25秒 冰封路径持续时间"
+    },
+    "right": {
+      "textEn": "-50s Respawn Time",
+      "textZh": "-50秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "juggernaut",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "right": {
+      "textEn": "+20 Damage",
+      "textZh": "+20 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "juggernaut",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+20 Attack Speed",
+      "textZh": "+20 攻击速度"
+    },
+    "right": {
+      "textEn": "+6 Armor",
+      "textZh": "+6 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "juggernaut",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "right": {
+      "textEn": "+8 All Stats",
+      "textZh": "+8 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "juggernaut",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+175 Blade Fury DPS",
+      "textZh": "+175 剑刃风暴每秒伤害"
+    },
+    "right": {
+      "textEn": "+20 Agility",
+      "textZh": "+20 敏捷"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "keeper-of-the-light",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+6 Strength",
+      "textZh": "+6 力量"
+    },
+    "right": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "keeper-of-the-light",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+20% XP Gain",
+      "textZh": "+20% 经验获取"
+    },
+    "right": {
+      "textEn": "-25s Respawn Time",
+      "textZh": "-25秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "keeper-of-the-light",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+10% Magic Resistance",
+      "textZh": "+10% 魔法抗性"
+    },
+    "right": {
+      "textEn": "+7 Armor",
+      "textZh": "+7 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "keeper-of-the-light",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+300 Cast Range",
+      "textZh": "+300 施法距离"
+    },
+    "right": {
+      "textEn": "+200 Illuminate Damage/Heal",
+      "textZh": "+200 冲击波伤害/治疗量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "kunkka",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+20 Damage",
+      "textZh": "+20 攻击力"
+    },
+    "right": {
+      "textEn": "+150 Mana",
+      "textZh": "+150 魔法"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "kunkka",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+15 Health Regen",
+      "textZh": "+15 生命恢复"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "kunkka",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+300 Health",
+      "textZh": "+300 生命"
+    },
+    "right": {
+      "textEn": "+120 Gold/Min",
+      "textZh": "+120 金钱/分"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "kunkka",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+200 Torrent AoE",
+      "textZh": "+200 洪流范围"
+    },
+    "right": {
+      "textEn": "+25% Magic Resistance",
+      "textZh": "+25% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "legion-commander",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+7 Strength",
+      "textZh": "+7 力量"
+    },
+    "right": {
+      "textEn": "+15% XP Gain",
+      "textZh": "+15% 经验获取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "legion-commander",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+30 Damage",
+      "textZh": "+30 攻击力"
+    },
+    "right": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "legion-commander",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+7 Armor",
+      "textZh": "+7 护甲"
+    },
+    "right": {
+      "textEn": "-20s Respawn Time",
+      "textZh": "-20秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "legion-commander",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "25% Cooldown Reduction",
+      "textZh": "25% 冷却时间减少"
+    },
+    "right": {
+      "textEn": "+40 Duel Damage Bonus",
+      "textZh": "+40 决斗攻击力加成"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "leshrac",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+125 Health",
+      "textZh": "+125 生命"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "leshrac",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+400 Mana",
+      "textZh": "+400 魔法"
+    },
+    "right": {
+      "textEn": "+8% Magic Resistance",
+      "textZh": "+8% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "leshrac",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+5% Spell Amplification",
+      "textZh": "+5% 技能增强"
+    },
+    "right": {
+      "textEn": "+12 Strength",
+      "textZh": "+12 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "leshrac",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+50 Diabolic Edict Explosions",
+      "textZh": "+50 恶魔敕令爆炸次数"
+    },
+    "right": {
+      "textEn": "+2s Lightning Storm Slow Duration",
+      "textZh": "+2秒 闪电风暴减速"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lich",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+125 Health",
+      "textZh": "+125 生命"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lich",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+100 Cast Range",
+      "textZh": "+100 施法距离"
+    },
+    "right": {
+      "textEn": "+5 All Stats",
+      "textZh": "+5 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lich",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+150 Damage",
+      "textZh": "+150 攻击力"
+    },
+    "right": {
+      "textEn": "+120 Gold/Min",
+      "textZh": "+120 金钱/分"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lich",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+25 Frost Armor Structure Armor",
+      "textZh": "+25 霜冻护甲对建筑数值"
+    },
+    "right": {
+      "textEn": "Attacks Apply 30% MS and AS slow",
+      "textZh": "攻击附带30%攻速和移速降低"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lifestealer",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+5 All Stats",
+      "textZh": "+5 全属性"
+    },
+    "right": {
+      "textEn": "+15 Attack Speed",
+      "textZh": "+15 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lifestealer",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+200 Health",
+      "textZh": "+200 生命"
+    },
+    "right": {
+      "textEn": "+25 Damage",
+      "textZh": "+25 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lifestealer",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "15% Evasion",
+      "textZh": "15% 闪避"
+    },
+    "right": {
+      "textEn": "+25 Movement Speed",
+      "textZh": "+25 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lifestealer",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+1s Rage Duration",
+      "textZh": "+1秒 狂暴持续时间"
+    },
+    "right": {
+      "textEn": "+15 Armor",
+      "textZh": "+15 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lina",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+250 Mana",
+      "textZh": "+250 魔法"
+    },
+    "right": {
+      "textEn": "+20 Damage",
+      "textZh": "+20 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lina",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "-25s Respawn Time",
+      "textZh": "-25秒 复活时间"
+    },
+    "right": {
+      "textEn": "+100 Cast Range",
+      "textZh": "+100 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lina",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+5% Spell Amplification",
+      "textZh": "+5% 技能增强"
+    },
+    "right": {
+      "textEn": "+150 Attack Range",
+      "textZh": "+150 攻击距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lina",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+1 Fiery Soul Max Stacks",
+      "textZh": "+1 炽魂最大叠加次数"
+    },
+    "right": {
+      "textEn": "-4s Dragon Slave Cooldown",
+      "textZh": "-4秒 龙破斩冷却"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lion",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+175 Health",
+      "textZh": "+175 生命"
+    },
+    "right": {
+      "textEn": "+45 Damage",
+      "textZh": "+45 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lion",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+90 Gold/Min",
+      "textZh": "+90 金钱/分"
+    },
+    "right": {
+      "textEn": "-30s Respawn Time",
+      "textZh": "-30秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lion",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "20% Magic Resistance",
+      "textZh": "20% 魔法抗性"
+    },
+    "right": {
+      "textEn": "+8% Spell Amplification",
+      "textZh": "+8% 技能增强"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lion",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+3 Mana Drain Multi Target",
+      "textZh": "+3 法力吸取多个目标"
+    },
+    "right": {
+      "textEn": "+20 All Stats",
+      "textZh": "+20 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lone-druid",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+250 Health",
+      "textZh": "+250 生命"
+    },
+    "right": {
+      "textEn": "+200 Attack Range",
+      "textZh": "+200 攻击距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lone-druid",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+65 Damage",
+      "textZh": "+65 攻击力"
+    },
+    "right": {
+      "textEn": "+30 Spirit Bear Damage",
+      "textZh": "+30 熊灵攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lone-druid",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+7 Spirit Bear Armor",
+      "textZh": "+7 熊灵护甲"
+    },
+    "right": {
+      "textEn": "-50s Respawn Time",
+      "textZh": "-50秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lone-druid",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+1.5s Entangle Duration",
+      "textZh": "+1.5秒 缠绕持续时间"
+    },
+    "right": {
+      "textEn": "-10s Savage Roar Cooldown",
+      "textZh": "-10秒 野蛮咆哮冷却"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "luna",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15 Damage",
+      "textZh": "+15 攻击力"
+    },
+    "right": {
+      "textEn": "+4 Armor",
+      "textZh": "+4 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "luna",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "right": {
+      "textEn": "+40 Lucent Beam Damage",
+      "textZh": "+40 月光伤害"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "luna",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+25 Attack Speed",
+      "textZh": "+25 攻击速度"
+    },
+    "right": {
+      "textEn": "+10% Magic Resistance",
+      "textZh": "+10% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "luna",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "-4s Lucent Beam Cooldown",
+      "textZh": "-4秒 月光冷却"
+    },
+    "right": {
+      "textEn": "+15 All Stats",
+      "textZh": "+15 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lycan",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+20 Damage",
+      "textZh": "+20 攻击力"
+    },
+    "right": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lycan",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "-20s Respawn Time",
+      "textZh": "-20秒 复活时间"
+    },
+    "right": {
+      "textEn": "+12 Strength",
+      "textZh": "+12 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lycan",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "15% Evasion",
+      "textZh": "15% 闪避"
+    },
+    "right": {
+      "textEn": "15% Cooldown Reduction",
+      "textZh": "15% 冷却时间减少"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "lycan",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+15s Shapeshift Duration",
+      "textZh": "+15秒 变身持续时间"
+    },
+    "right": {
+      "textEn": "+2 Wolves Summoned",
+      "textZh": "+2 召狼数量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "magnus",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+25 Attack Speed",
+      "textZh": "+25 攻击速度"
+    },
+    "right": {
+      "textEn": "+15% Spell Amplification",
+      "textZh": "+15% 技能增强"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "magnus",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+90 Gold/Min",
+      "textZh": "+90 金钱/分"
+    },
+    "right": {
+      "textEn": "+50 Damage",
+      "textZh": "+50 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "magnus",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+15 Strength",
+      "textZh": "+15 力量"
+    },
+    "right": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "magnus",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "-4s Shockwave Cooldown",
+      "textZh": "-4秒 震荡波冷却"
+    },
+    "right": {
+      "textEn": "-35 Respawn Time",
+      "textZh": "-35 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "medusa",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+10 Intelligence",
+      "textZh": "+10 智力"
+    },
+    "right": {
+      "textEn": "+15 Damage",
+      "textZh": "+15 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "medusa",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+20 Attack Speed",
+      "textZh": "+20 攻击速度"
+    },
+    "right": {
+      "textEn": "10% Evasion",
+      "textZh": "10% 闪避"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "medusa",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+15 Agility",
+      "textZh": "+15 敏捷"
+    },
+    "right": {
+      "textEn": "+500 Mana",
+      "textZh": "+500 魔法"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "medusa",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+1s Stone Gaze Stun",
+      "textZh": "+1秒 石化凝视眩晕"
+    },
+    "right": {
+      "textEn": "25% Lifesteal",
+      "textZh": "25% 吸血"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "meepo",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+4 Armor",
+      "textZh": "+4 护甲"
+    },
+    "right": {
+      "textEn": "+15 Damage",
+      "textZh": "+15 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "meepo",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "15% Lifesteal",
+      "textZh": "15% 吸血"
+    },
+    "right": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "meepo",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "10% Evasion",
+      "textZh": "10% 闪避"
+    },
+    "right": {
+      "textEn": "+25 Attack Speed",
+      "textZh": "+25 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "meepo",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+400 Health",
+      "textZh": "+400 生命"
+    },
+    "right": {
+      "textEn": "-3s Poof Cooldown",
+      "textZh": "-3秒 忽悠冷却"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "mirana",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+8 Agility",
+      "textZh": "+8 敏捷"
+    },
+    "right": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "mirana",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+5% Spell Amplification",
+      "textZh": "+5% 技能增强"
+    },
+    "right": {
+      "textEn": "+30 Attack Speed",
+      "textZh": "+30 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "mirana",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+40 Damage",
+      "textZh": "+40 攻击力"
+    },
+    "right": {
+      "textEn": "+8 Armor",
+      "textZh": "+8 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "mirana",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+100 Leap Attack Speed",
+      "textZh": "+100 跳跃攻击速度"
+    },
+    "right": {
+      "textEn": "+2 Multishot Sacred Arrows",
+      "textZh": "+2 月神之箭齐发"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "monkey-king",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+20 Attack Speed",
+      "textZh": "+20 攻击速度"
+    },
+    "right": {
+      "textEn": "+5 Armor",
+      "textZh": "+5 护甲"
+    },
+    "source": "https://github.com/SteamTracking/GameTracking-Dota2/commit/0974c234e1e6fd9f9a2e0b84d78b101f7d96986f"
+  },
+  {
+    "heroId": "monkey-king",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+275 Health",
+      "textZh": "+275 生命"
+    },
+    "right": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "source": "https://github.com/SteamTracking/GameTracking-Dota2/commit/0974c234e1e6fd9f9a2e0b84d78b101f7d96986f"
+  },
+  {
+    "heroId": "monkey-king",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+40 Damage",
+      "textZh": "+40 攻击力"
+    },
+    "right": {
+      "textEn": "+15 Strength",
+      "textZh": "+15 力量"
+    },
+    "source": "https://github.com/SteamTracking/GameTracking-Dota2/commit/0974c234e1e6fd9f9a2e0b84d78b101f7d96986f"
+  },
+  {
+    "heroId": "monkey-king",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+25% Magic Resistance",
+      "textZh": "+25% 魔法抗性"
+    },
+    "right": {
+      "textEn": "+50% Boundless Strike Crit",
+      "textZh": "+50% 棒击大地暴击"
+    },
+    "source": "https://github.com/SteamTracking/GameTracking-Dota2/commit/0974c234e1e6fd9f9a2e0b84d78b101f7d96986f"
+  },
+  {
+    "heroId": "morphling",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+8 Agility",
+      "textZh": "+8 敏捷"
+    },
+    "right": {
+      "textEn": "+200 Mana",
+      "textZh": "+200 魔法"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "morphling",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+25 Attack Speed",
+      "textZh": "+25 攻击速度"
+    },
+    "right": {
+      "textEn": "12% Cooldown Reduction",
+      "textZh": "12% 冷却时间减少"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "morphling",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+25 Movement Speed",
+      "textZh": "+25 移动速度"
+    },
+    "right": {
+      "textEn": "+40 Damage",
+      "textZh": "+40 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "morphling",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+400 Waveform Range",
+      "textZh": "+400 波浪形态距离"
+    },
+    "right": {
+      "textEn": "+30% Replicate Damage",
+      "textZh": "+30% 复制体攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "naga-siren",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+250 Mana",
+      "textZh": "+250 魔法"
+    },
+    "right": {
+      "textEn": "+125 Health",
+      "textZh": "+125 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "naga-siren",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+30 Attack Speed",
+      "textZh": "+30 攻击速度"
+    },
+    "right": {
+      "textEn": "15% Evasion",
+      "textZh": "15% 闪避"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "naga-siren",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+15 Agility",
+      "textZh": "+15 敏捷"
+    },
+    "right": {
+      "textEn": "+20 Strength",
+      "textZh": "+20 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "naga-siren",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+1 Mirror Image Illusion",
+      "textZh": "+1 镜像幻象"
+    },
+    "right": {
+      "textEn": "+40 Movement Speed",
+      "textZh": "+40 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "nature-s-prophet",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+20 Damage",
+      "textZh": "+20 攻击力"
+    },
+    "right": {
+      "textEn": "+175 Health",
+      "textZh": "+175 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "nature-s-prophet",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+10 Intelligence",
+      "textZh": "+10 智力"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "nature-s-prophet",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+35 Attack Speed",
+      "textZh": "+35 攻击速度"
+    },
+    "right": {
+      "textEn": "+8 Armor",
+      "textZh": "+8 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "nature-s-prophet",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+6 Treants Summoned",
+      "textZh": "+6 树人召唤数量"
+    },
+    "right": {
+      "textEn": "-35s Respawn Time",
+      "textZh": "-35秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "necrophos",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+40 Damage",
+      "textZh": "+40 攻击力"
+    },
+    "right": {
+      "textEn": "+6 Strength",
+      "textZh": "+6 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "necrophos",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+6 All Stats",
+      "textZh": "+6 全属性"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "necrophos",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+5% Spell Amplification",
+      "textZh": "+5% 技能增强"
+    },
+    "right": {
+      "textEn": "+10% Magic Resistance",
+      "textZh": "+10% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "necrophos",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+400 Health",
+      "textZh": "+400 生命"
+    },
+    "right": {
+      "textEn": "-1s Death Pulse Cooldown",
+      "textZh": "-1秒 死亡脉冲冷却"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "night-stalker",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+7 Strength",
+      "textZh": "+7 力量"
+    },
+    "right": {
+      "textEn": "+100 Cast Range",
+      "textZh": "+100 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "night-stalker",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+300 Mana",
+      "textZh": "+300 魔法"
+    },
+    "right": {
+      "textEn": "+25 Attack Speed",
+      "textZh": "+25 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "night-stalker",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+30 Movement Speed",
+      "textZh": "+30 移动速度"
+    },
+    "right": {
+      "textEn": "+50 Damage",
+      "textZh": "+50 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "night-stalker",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+12 Armor",
+      "textZh": "+12 护甲"
+    },
+    "right": {
+      "textEn": "-6s Crippling Fear Cooldown",
+      "textZh": "-6秒 伤残恐惧冷却"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "nyx-assassin",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+5% Spell Amplification",
+      "textZh": "+5% 技能增强"
+    },
+    "right": {
+      "textEn": "+175 Health",
+      "textZh": "+175 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "nyx-assassin",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+25 Agility",
+      "textZh": "+25 敏捷"
+    },
+    "right": {
+      "textEn": "+10 Strength",
+      "textZh": "+10 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "nyx-assassin",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+120 Gold/Min",
+      "textZh": "+120 金钱/分"
+    },
+    "right": {
+      "textEn": "+15% Magic Resistance",
+      "textZh": "+15% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "nyx-assassin",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+40 Movement Speed",
+      "textZh": "+40 移动速度"
+    },
+    "right": {
+      "textEn": "200% Spiked Carapace Damage",
+      "textZh": "200% 尖刺外壳伤害"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ogre-magi",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+60 Gold/Min",
+      "textZh": "+60 金钱/分"
+    },
+    "right": {
+      "textEn": "+100 Cast Range",
+      "textZh": "+100 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ogre-magi",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+40 Damage",
+      "textZh": "+40 攻击力"
+    },
+    "right": {
+      "textEn": "+8% Magic Resistance",
+      "textZh": "+8% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ogre-magi",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+250 Health",
+      "textZh": "+250 生命"
+    },
+    "right": {
+      "textEn": "+25 Movement Speed",
+      "textZh": "+25 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ogre-magi",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+15% Spell Amplification",
+      "textZh": "+15% 技能增强"
+    },
+    "right": {
+      "textEn": "+40 Bloodlust Attack Speed",
+      "textZh": "+40 嗜血术攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "omniknight",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+60 Gold/Min",
+      "textZh": "+60 金钱/分"
+    },
+    "right": {
+      "textEn": "+15% XP Gain",
+      "textZh": "+15% 经验获取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "omniknight",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+75 Cast Range",
+      "textZh": "+75 施法距离"
+    },
+    "right": {
+      "textEn": "+8 Strength",
+      "textZh": "+8 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "omniknight",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+100 Damage",
+      "textZh": "+100 攻击力"
+    },
+    "right": {
+      "textEn": "+6 Mana Regen",
+      "textZh": "+6 魔法恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "omniknight",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "-16% Degen Aura",
+      "textZh": "-16% 退化光环"
+    },
+    "right": {
+      "textEn": "+200 Purification Damage/Heal",
+      "textZh": "+200 洗礼伤害/治疗"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "oracle",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "-20s Respawn Time",
+      "textZh": "-20秒 复活时间"
+    },
+    "right": {
+      "textEn": "+15% XP Gain",
+      "textZh": "+15% 经验获取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "oracle",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+200 Health",
+      "textZh": "+200 生命"
+    },
+    "right": {
+      "textEn": "+60 Gold/Min",
+      "textZh": "+60 金钱/分"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "oracle",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+25 Movement Speed",
+      "textZh": "+25 移动速度"
+    },
+    "right": {
+      "textEn": "+20 Intelligence",
+      "textZh": "+20 智力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "oracle",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+2s False Promise Duration",
+      "textZh": "+2秒 虚妄之诺持续时间"
+    },
+    "right": {
+      "textEn": "+250 Cast Range",
+      "textZh": "+250 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "outworld-destroyer",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+250 Mana",
+      "textZh": "+250 魔法"
+    },
+    "right": {
+      "textEn": "+10 Movement Speed",
+      "textZh": "+10 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "outworld-destroyer",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+5 Armor",
+      "textZh": "+5 护甲"
+    },
+    "right": {
+      "textEn": "+20 Attack Speed",
+      "textZh": "+20 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "outworld-destroyer",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+15 Intelligence",
+      "textZh": "+15 智力"
+    },
+    "right": {
+      "textEn": "+250 Health",
+      "textZh": "+250 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "outworld-destroyer",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+60s Arcane Orb Intelligence Steal",
+      "textZh": "+60秒 奥术天球智力窃取时间"
+    },
+    "right": {
+      "textEn": "+8% Spell Amplification",
+      "textZh": "+8% 技能增强"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "phantom-assassin",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "right": {
+      "textEn": "+15 Damage",
+      "textZh": "+15 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "phantom-assassin",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "10% Lifesteal",
+      "textZh": "10% 吸血"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "phantom-assassin",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+35 Attack Speed",
+      "textZh": "+35 攻击速度"
+    },
+    "right": {
+      "textEn": "+10 All Stats",
+      "textZh": "+10 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "phantom-assassin",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+25 Agility",
+      "textZh": "+25 敏捷"
+    },
+    "right": {
+      "textEn": "Double Strike Stifling Dagger",
+      "textZh": "窒碍短匕攻击两个目标"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "phantom-lancer",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "right": {
+      "textEn": "+20 Attack Speed",
+      "textZh": "+20 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "phantom-lancer",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+8 All Stats",
+      "textZh": "+8 全属性"
+    },
+    "right": {
+      "textEn": "15% Cooldown Reduction",
+      "textZh": "15% 冷却时间减少"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "phantom-lancer",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+15% Magic Resistance",
+      "textZh": "+15% 魔法抗性"
+    },
+    "right": {
+      "textEn": "15% Evasion",
+      "textZh": "15% 闪避"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "phantom-lancer",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+600 Phantom Rush Range",
+      "textZh": "+600 幻影冲锋距离"
+    },
+    "right": {
+      "textEn": "+20 Strength",
+      "textZh": "+20 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "phoenix",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "-20s Respawn Time",
+      "textZh": "-20秒 复活时间"
+    },
+    "right": {
+      "textEn": "+175 Health",
+      "textZh": "+175 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "phoenix",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+90 Gold/Min",
+      "textZh": "+90 金钱/分"
+    },
+    "right": {
+      "textEn": "+12 Strength",
+      "textZh": "+12 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "phoenix",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+10 Armor",
+      "textZh": "+10 护甲"
+    },
+    "right": {
+      "textEn": "+8% Spell Amplification",
+      "textZh": "+8% 技能增强"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "phoenix",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+2 Supernova Hit Count",
+      "textZh": "+2 超新星攻击次数"
+    },
+    "right": {
+      "textEn": "+1s Supernova Stun Duration",
+      "textZh": "+1秒 超新星眩晕"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "puck",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+8 Intelligence",
+      "textZh": "+8 智力"
+    },
+    "right": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "puck",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+40 Damage",
+      "textZh": "+40 攻击力"
+    },
+    "right": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "puck",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+8% Spell Amplification",
+      "textZh": "+8% 技能增强"
+    },
+    "right": {
+      "textEn": "+20% Magic Resistance",
+      "textZh": "+20% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "puck",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+300 Gold/Min",
+      "textZh": "+300 金钱/分"
+    },
+    "right": {
+      "textEn": "+75% Illusory Orb Distance/Speed",
+      "textZh": "+75% 幻象法球距离/速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "pudge",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+8 Strength",
+      "textZh": "+8 力量"
+    },
+    "right": {
+      "textEn": "+2 Mana Regen",
+      "textZh": "+2 魔法恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "pudge",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+5 Armor",
+      "textZh": "+5 护甲"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "pudge",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+150 Gold/Min",
+      "textZh": "+150 金钱/分"
+    },
+    "right": {
+      "textEn": "-35s Respawn Time",
+      "textZh": "-35秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "pudge",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+1.75 Flesh Heap Stack Strength",
+      "textZh": "+1.75 腐肉堆积力量增加"
+    },
+    "right": {
+      "textEn": "+120 Rot Damage",
+      "textZh": "+120 腐烂伤害"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "pugna",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+3 Mana Regen",
+      "textZh": "+3 魔法恢复"
+    },
+    "right": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "pugna",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "-25s Respawn Time",
+      "textZh": "-25秒 复活时间"
+    },
+    "right": {
+      "textEn": "+10 Strength",
+      "textZh": "+10 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "pugna",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+10 All Stats",
+      "textZh": "+10 全属性"
+    },
+    "right": {
+      "textEn": "+100 Cast Range",
+      "textZh": "+100 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "pugna",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+50% Life Drain Heal",
+      "textZh": "+50% 生命汲取治疗效果"
+    },
+    "right": {
+      "textEn": "+100 Nether Blast Damage",
+      "textZh": "+100 幽冥爆轰伤害"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "queen-of-pain",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+20 Damage",
+      "textZh": "+20 攻击力"
+    },
+    "right": {
+      "textEn": "+5 Strength",
+      "textZh": "+5 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "queen-of-pain",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+12% Cooldown Reduction",
+      "textZh": "+12% 冷却时间减少"
+    },
+    "right": {
+      "textEn": "+90 Gold/Min",
+      "textZh": "+90 金钱/分"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "queen-of-pain",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+100 Attack Range",
+      "textZh": "+100 攻击距离"
+    },
+    "right": {
+      "textEn": "+200 Health",
+      "textZh": "+200 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "queen-of-pain",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "70% Spell Lifesteal (1/5 for non-heroes)",
+      "textZh": "70% 技能吸血（非英雄为1/5的效果）"
+    },
+    "right": {
+      "textEn": "+35 Intelligence",
+      "textZh": "+35 智力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "razor",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "right": {
+      "textEn": "+10 Agility",
+      "textZh": "+10 敏捷"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "razor",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+5 Armor",
+      "textZh": "+5 护甲"
+    },
+    "right": {
+      "textEn": "+150 Cast Range",
+      "textZh": "+150 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "razor",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+250 Health",
+      "textZh": "+250 生命"
+    },
+    "right": {
+      "textEn": "+30 Attack Speed",
+      "textZh": "+30 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "razor",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+175 Attack Range",
+      "textZh": "+175 攻击距离"
+    },
+    "right": {
+      "textEn": "+14 Static Link Damage Steal",
+      "textZh": "+14 静电连接攻击力窃取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "riki",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "right": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "riki",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+10 Agility",
+      "textZh": "+10 敏捷"
+    },
+    "right": {
+      "textEn": "+20% XP Gain",
+      "textZh": "+20% 经验获取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "riki",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+250 Cast Range",
+      "textZh": "+250 施法距离"
+    },
+    "right": {
+      "textEn": "+8 All Stats",
+      "textZh": "+8 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "riki",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+0.4 Backstab Multiplier",
+      "textZh": "+0.4 背刺伤害系数"
+    },
+    "right": {
+      "textEn": "-4s Smokescreen Cooldown",
+      "textZh": "-4秒 烟幕冷却"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "rubick",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+60 Gold/Min",
+      "textZh": "+60 金钱/分"
+    },
+    "right": {
+      "textEn": "+50 Damage",
+      "textZh": "+50 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "rubick",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "right": {
+      "textEn": "+15 Intelligence",
+      "textZh": "+15 智力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "rubick",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+75 Cast Range",
+      "textZh": "+75 施法距离"
+    },
+    "right": {
+      "textEn": "+8% Spell Amplification",
+      "textZh": "+8% 技能增强"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "rubick",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "20% Cooldown Reduction",
+      "textZh": "20% 冷却时间减少"
+    },
+    "right": {
+      "textEn": "+400 Telekinesis Land Distance",
+      "textZh": "+400 隔空取物着陆距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "sand-king",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+200 Mana",
+      "textZh": "+200 魔法"
+    },
+    "right": {
+      "textEn": "+5 Armor",
+      "textZh": "+5 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "sand-king",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+12% Magic Resistance",
+      "textZh": "+12% 魔法抗性"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "sand-king",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+350 Health",
+      "textZh": "+350 生命"
+    },
+    "right": {
+      "textEn": "+120 Gold/Min",
+      "textZh": "+120 金钱/分"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "sand-king",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+4 Epicenter Pulses",
+      "textZh": "+4 地震震波数"
+    },
+    "right": {
+      "textEn": "+50 Health Regen",
+      "textZh": "+50 生命恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "shadow-demon",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+6 Strength",
+      "textZh": "+6 力量"
+    },
+    "right": {
+      "textEn": "+10 Movement Speed",
+      "textZh": "+10 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "shadow-demon",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+75 Cast Range",
+      "textZh": "+75 施法距离"
+    },
+    "right": {
+      "textEn": "+6% Spell Amplification",
+      "textZh": "+6% 技能增强"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "shadow-demon",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+10% Magic Resistance",
+      "textZh": "+10% 魔法抗性"
+    },
+    "right": {
+      "textEn": "-25s Respawn Time",
+      "textZh": "-25秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "shadow-demon",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+400 Demonic Purge Damage",
+      "textZh": "+400 邪恶净化伤害"
+    },
+    "right": {
+      "textEn": "-1s Shadow Poison Cooldown",
+      "textZh": "-1秒 暗影剧毒冷却"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "shadow-fiend",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "right": {
+      "textEn": "+20 Attack Speed",
+      "textZh": "+20 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "shadow-fiend",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+6% Spell Amplification",
+      "textZh": "+6% 技能增强"
+    },
+    "right": {
+      "textEn": "+175 Health",
+      "textZh": "+175 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "shadow-fiend",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "15% Evasion",
+      "textZh": "15% 闪避"
+    },
+    "right": {
+      "textEn": "+2 Damage Per Soul",
+      "textZh": "+2 攻击力/灵魂"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "shadow-fiend",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+150 Attack Range",
+      "textZh": "+150 攻击距离"
+    },
+    "right": {
+      "textEn": "-7s Shadow Raze Cooldown",
+      "textZh": "-7秒 毁灭阴影冷却"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "shadow-shaman",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "shadow-shaman",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+100 Cast Range",
+      "textZh": "+100 施法距离"
+    },
+    "right": {
+      "textEn": "+20% XP Gain",
+      "textZh": "+20% 经验获取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "shadow-shaman",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "-30s Respawn Time",
+      "textZh": "-30秒 复活时间"
+    },
+    "right": {
+      "textEn": "+20% Magic Resistance",
+      "textZh": "+20% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "shadow-shaman",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+1 Serpent Wards Attacks Health",
+      "textZh": "+1 群蛇守卫可被攻击次数"
+    },
+    "right": {
+      "textEn": "+3s Shackles Duration",
+      "textZh": "+3秒 枷锁持续时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "silencer",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+4 Armor",
+      "textZh": "+4 护甲"
+    },
+    "right": {
+      "textEn": "+7 Intelligence",
+      "textZh": "+7 智力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "silencer",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+200 Health",
+      "textZh": "+200 生命"
+    },
+    "right": {
+      "textEn": "+60 Gold/Min",
+      "textZh": "+60 金钱/分"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "silencer",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+30 Attack Speed",
+      "textZh": "+30 攻击速度"
+    },
+    "right": {
+      "textEn": "+12% Magic Resistance",
+      "textZh": "+12% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "silencer",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+200 Attack Range",
+      "textZh": "+200 攻击距离"
+    },
+    "right": {
+      "textEn": "+20% Curse Slow",
+      "textZh": "+20% 诅咒减速"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "skywrath-mage",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+125 Health",
+      "textZh": "+125 生命"
+    },
+    "right": {
+      "textEn": "+7 Intelligence",
+      "textZh": "+7 智力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "skywrath-mage",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+50 Damage",
+      "textZh": "+50 攻击力"
+    },
+    "right": {
+      "textEn": "+60 Gold/Min",
+      "textZh": "+60 金钱/分"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "skywrath-mage",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "right": {
+      "textEn": "+15% Magic Resistance",
+      "textZh": "+15% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "skywrath-mage",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "-4s Ancient Seal Cooldown",
+      "textZh": "-4秒 上古封印冷却"
+    },
+    "right": {
+      "textEn": "+14 Mana Regen",
+      "textZh": "+14 魔法恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "slardar",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+6 Health Regen",
+      "textZh": "+6 生命恢复"
+    },
+    "right": {
+      "textEn": "+175 Mana",
+      "textZh": "+175 魔法"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "slardar",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+200 Health",
+      "textZh": "+200 生命"
+    },
+    "right": {
+      "textEn": "+25 Attack Speed",
+      "textZh": "+25 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "slardar",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+35 Damage",
+      "textZh": "+35 攻击力"
+    },
+    "right": {
+      "textEn": "+7 Armor",
+      "textZh": "+7 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "slardar",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+20 Strength",
+      "textZh": "+20 力量"
+    },
+    "right": {
+      "textEn": "+10% Bash Chance",
+      "textZh": "+10% 重击几率"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "slark",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "10% Life Steal",
+      "textZh": "10% 吸血"
+    },
+    "right": {
+      "textEn": "+15 Damage",
+      "textZh": "+15 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "slark",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+15 Agility",
+      "textZh": "+15 敏捷"
+    },
+    "right": {
+      "textEn": "+10 Strength",
+      "textZh": "+10 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "slark",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+250 Health",
+      "textZh": "+250 生命"
+    },
+    "right": {
+      "textEn": "+25 Attack Speed",
+      "textZh": "+25 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "slark",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+3s Pounce Leash",
+      "textZh": "+3秒 突袭束缚时间"
+    },
+    "right": {
+      "textEn": "+12 All Stats",
+      "textZh": "+12 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "sniper",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+4 Mana Regen",
+      "textZh": "+4 魔法恢复"
+    },
+    "right": {
+      "textEn": "+15 Attack Speed",
+      "textZh": "+15 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "sniper",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+20 Shrapnel DPS",
+      "textZh": "+20 榴霰弹每秒伤害"
+    },
+    "right": {
+      "textEn": "+200 Health",
+      "textZh": "+200 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "sniper",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+8 Armor",
+      "textZh": "+8 护甲"
+    },
+    "right": {
+      "textEn": "25% Cooldown Reduction",
+      "textZh": "25% 冷却时间减少"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "sniper",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+100 Attack Range",
+      "textZh": "+100 攻击距离"
+    },
+    "right": {
+      "textEn": "+4 Shrapnel Charges",
+      "textZh": "+4 榴霰弹能量点数"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "spectre",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+20 Damage",
+      "textZh": "+20 攻击力"
+    },
+    "right": {
+      "textEn": "+5 Armor",
+      "textZh": "+5 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "spectre",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+6 All Stats",
+      "textZh": "+6 全属性"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "spectre",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+25 Attack Speed",
+      "textZh": "+25 攻击速度"
+    },
+    "right": {
+      "textEn": "+12 Strength",
+      "textZh": "+12 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "spectre",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "-10s Spectral Dagger Cooldown",
+      "textZh": "-10秒 幽鬼之刃冷却"
+    },
+    "right": {
+      "textEn": "400 Health",
+      "textZh": "400 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "spirit-breaker",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+5 All Stats",
+      "textZh": "+5 全属性"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "spirit-breaker",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+20 Damage",
+      "textZh": "+20 攻击力"
+    },
+    "right": {
+      "textEn": "+5 Armor",
+      "textZh": "+5 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "spirit-breaker",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+120 Gold/Min",
+      "textZh": "+120 金钱/分"
+    },
+    "right": {
+      "textEn": "-40s Respawn Time",
+      "textZh": "-40秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "spirit-breaker",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+17% Greater Bash Chance",
+      "textZh": "+17% 巨力重击几率"
+    },
+    "right": {
+      "textEn": "+500 Charge Speed",
+      "textZh": "+500 冲刺速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "storm-spirit",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+20 Damage",
+      "textZh": "+20 攻击力"
+    },
+    "right": {
+      "textEn": "+3 Mana Regen",
+      "textZh": "+3 魔法恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "storm-spirit",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+175 Health",
+      "textZh": "+175 生命"
+    },
+    "right": {
+      "textEn": "+10 Intelligence",
+      "textZh": "+10 智力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "storm-spirit",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+40 Attack Speed",
+      "textZh": "+40 攻击速度"
+    },
+    "right": {
+      "textEn": "+7 Armor",
+      "textZh": "+7 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "storm-spirit",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+0.75s Electric Vortex",
+      "textZh": "+0.75秒 电子涡流持续时间"
+    },
+    "right": {
+      "textEn": "+10% Spell Amplification",
+      "textZh": "+10% 技能增强"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "sven",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+6 Strength",
+      "textZh": "+6 力量"
+    },
+    "right": {
+      "textEn": "+200 Mana",
+      "textZh": "+200 魔法"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "sven",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "right": {
+      "textEn": "+6 All Stats",
+      "textZh": "+6 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "sven",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+30 Attack Speed",
+      "textZh": "+30 攻击速度"
+    },
+    "right": {
+      "textEn": "15% Evasion",
+      "textZh": "15% 闪避"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "sven",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+65 Damage",
+      "textZh": "+65 攻击力"
+    },
+    "right": {
+      "textEn": "-5s Stormbolt Cooldown",
+      "textZh": "-5秒 风暴之拳冷却"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "techies",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "right": {
+      "textEn": "+2 Mana Regen",
+      "textZh": "+2 魔法恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "techies",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+25% XP Gain",
+      "textZh": "+25% 经验获取"
+    },
+    "right": {
+      "textEn": "+200 Cast Range",
+      "textZh": "+200 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "techies",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+120 Gold/Min",
+      "textZh": "+120 金钱/分"
+    },
+    "right": {
+      "textEn": "-60s Respawn Time",
+      "textZh": "-60秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "techies",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+400 Blast Off Damage",
+      "textZh": "+400 爆破起飞伤害"
+    },
+    "right": {
+      "textEn": "25% Cooldown Reduction",
+      "textZh": "25% 冷却时间减少"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "templar-assassin",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+25 Attack Speed",
+      "textZh": "+25 攻击速度"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "templar-assassin",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+6 All Stats",
+      "textZh": "+6 全属性"
+    },
+    "right": {
+      "textEn": "12% Evasion",
+      "textZh": "12% 闪避"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "templar-assassin",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+250 Health",
+      "textZh": "+250 生命"
+    },
+    "right": {
+      "textEn": "+40 Damage",
+      "textZh": "+40 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "templar-assassin",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+3 Refraction Instances",
+      "textZh": "+3 折光次数"
+    },
+    "right": {
+      "textEn": "-30s Respawn Time",
+      "textZh": "-30秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "terrorblade",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+6 Health Regen",
+      "textZh": "+6 生命恢复"
+    },
+    "right": {
+      "textEn": "+15 Attack Speed",
+      "textZh": "+15 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "terrorblade",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+25 Damage",
+      "textZh": "+25 攻击力"
+    },
+    "right": {
+      "textEn": "+175 Health",
+      "textZh": "+175 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "terrorblade",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+15 Agility",
+      "textZh": "+15 敏捷"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "terrorblade",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+15 All Stats",
+      "textZh": "+15 全属性"
+    },
+    "right": {
+      "textEn": "-30s Sunder Cooldown",
+      "textZh": "-30秒 魂断冷却"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tidehunter",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+50 Damage",
+      "textZh": "+50 攻击力"
+    },
+    "right": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tidehunter",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+7 Armor",
+      "textZh": "+7 护甲"
+    },
+    "right": {
+      "textEn": "+30% XP Gain",
+      "textZh": "+30% 经验获取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tidehunter",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+6 Mana Regen",
+      "textZh": "+6 魔法恢复"
+    },
+    "right": {
+      "textEn": "+15 Strength",
+      "textZh": "+15 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tidehunter",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "-5 Gush Armor",
+      "textZh": "-5 巨浪削弱护甲"
+    },
+    "right": {
+      "textEn": "20% Cooldown Reduction",
+      "textZh": "20% 冷却时间减少"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "timbersaw",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "right": {
+      "textEn": "+10% XP Gain",
+      "textZh": "+10% 经验获取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "timbersaw",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+14 Health Regen",
+      "textZh": "+14 生命恢复"
+    },
+    "right": {
+      "textEn": "+15 Intelligence",
+      "textZh": "+15 智力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "timbersaw",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+5% Spell Amplification",
+      "textZh": "+5% 技能增强"
+    },
+    "right": {
+      "textEn": "+125 Cast Range",
+      "textZh": "+125 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "timbersaw",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+6% Whirling Death Attribute Reduction",
+      "textZh": "+6% 死亡旋风属性减少"
+    },
+    "right": {
+      "textEn": "+20 Strength",
+      "textZh": "+20 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tinker",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+8 Intelligence",
+      "textZh": "+8 智力"
+    },
+    "right": {
+      "textEn": "+5 Armor",
+      "textZh": "+5 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tinker",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+200 Health",
+      "textZh": "+200 生命"
+    },
+    "right": {
+      "textEn": "4% Spell Amplification",
+      "textZh": "4% 技能增强"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tinker",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+75 Cast Range",
+      "textZh": "+75 施法距离"
+    },
+    "right": {
+      "textEn": "15% Magic Resistance",
+      "textZh": "15% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tinker",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "20% Spell Lifesteal (1/5 for non-heroes)",
+      "textZh": "20% 技能吸血（对非英雄为1/5效果）"
+    },
+    "right": {
+      "textEn": "+100 Laser Damage",
+      "textZh": "+100 激光伤害"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tiny",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+6 Strength",
+      "textZh": "+6 力量"
+    },
+    "right": {
+      "textEn": "+10 Intelligence",
+      "textZh": "+10 智力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tiny",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+45 Damage",
+      "textZh": "+45 攻击力"
+    },
+    "right": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tiny",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+25 Attack Speed",
+      "textZh": "+25 攻击速度"
+    },
+    "right": {
+      "textEn": "+14 Mana Regen",
+      "textZh": "+14 魔法恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tiny",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "20% Cooldown Reduction",
+      "textZh": "20% 冷却时间减少"
+    },
+    "right": {
+      "textEn": "+200 Avalanche Damage",
+      "textZh": "+200 山崩伤害"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "treant-protector",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+30 Attack Speed",
+      "textZh": "+30 攻击速度"
+    },
+    "right": {
+      "textEn": "+2 Mana Regen",
+      "textZh": "+2 魔法恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "treant-protector",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+90 Gold/Min",
+      "textZh": "+90 金钱/分"
+    },
+    "right": {
+      "textEn": "+25 Movement Speed",
+      "textZh": "+25 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "treant-protector",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "15% Cooldown Reduction",
+      "textZh": "15% 冷却时间减少"
+    },
+    "right": {
+      "textEn": "+65 Damage",
+      "textZh": "+65 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "treant-protector",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+5 Living Armor Block Instances",
+      "textZh": "+5 活体护甲格挡次数"
+    },
+    "right": {
+      "textEn": "+20% 2s Bash",
+      "textZh": "+20% 普攻击晕2秒"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "troll-warlord",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+6 Strength",
+      "textZh": "+6 力量"
+    },
+    "right": {
+      "textEn": "10 Agility",
+      "textZh": "10 敏捷"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "troll-warlord",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "right": {
+      "textEn": "+6 Armor",
+      "textZh": "+6 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "troll-warlord",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+300 Health",
+      "textZh": "+300 生命"
+    },
+    "right": {
+      "textEn": "+40 Damage",
+      "textZh": "+40 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "troll-warlord",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "-7s Whirling Axes Cooldown",
+      "textZh": "-7秒 旋风飞斧冷却"
+    },
+    "right": {
+      "textEn": "+20% Magic Resistance",
+      "textZh": "+20% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tusk",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+20% XP Gain",
+      "textZh": "+20% 经验获取"
+    },
+    "right": {
+      "textEn": "+30 Damage",
+      "textZh": "+30 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tusk",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+15 Strength",
+      "textZh": "+15 力量"
+    },
+    "right": {
+      "textEn": "+90 Gold/Min",
+      "textZh": "+90 金钱/分"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tusk",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+6 Armor",
+      "textZh": "+6 护甲"
+    },
+    "right": {
+      "textEn": "+10% Magic Resistance",
+      "textZh": "+10% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "tusk",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+500 Health",
+      "textZh": "+500 生命"
+    },
+    "right": {
+      "textEn": "+150% Walrus Punch Crit",
+      "textZh": "+150% 海象神拳暴击"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "underlord",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+4 Armor",
+      "textZh": "+4 护甲"
+    },
+    "right": {
+      "textEn": "+2 Mana Regen",
+      "textZh": "+2 魔法恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "underlord",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+200 Health",
+      "textZh": "+200 生命"
+    },
+    "right": {
+      "textEn": "+8% Spell Amplification",
+      "textZh": "+8% 技能增强"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "underlord",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+50 Attack Speed",
+      "textZh": "+50 攻击速度"
+    },
+    "right": {
+      "textEn": "+100 Cast Range",
+      "textZh": "+100 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "underlord",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+0.4s Pit of Malice Root",
+      "textZh": "+0.4秒 怨念深渊缠绕时间"
+    },
+    "right": {
+      "textEn": "+50 Health Regen",
+      "textZh": "+50 生命恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "undying",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "-30s Respawn Time",
+      "textZh": "-30秒 复活时间"
+    },
+    "right": {
+      "textEn": "+90 Gold/Min",
+      "textZh": "+90 金钱/分"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "undying",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+30% XP Gain",
+      "textZh": "+30% 经验获取"
+    },
+    "right": {
+      "textEn": "+300 Health",
+      "textZh": "+300 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "undying",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+10 All Stats",
+      "textZh": "+10 全属性"
+    },
+    "right": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "undying",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+40 Tombstone Zombie Damage",
+      "textZh": "+40 墓碑僵尸攻击力"
+    },
+    "right": {
+      "textEn": "+12 Armor",
+      "textZh": "+12 护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ursa",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+25 Damage",
+      "textZh": "+25 攻击力"
+    },
+    "right": {
+      "textEn": "+8% Magic Resistance",
+      "textZh": "+8% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ursa",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+5 Armor",
+      "textZh": "+5 护甲"
+    },
+    "right": {
+      "textEn": "+20 Attack Speed",
+      "textZh": "+20 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ursa",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "right": {
+      "textEn": "+250 Health",
+      "textZh": "+250 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "ursa",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+10 Fury Swipes Damage",
+      "textZh": "+10 怒意狂击伤害"
+    },
+    "right": {
+      "textEn": "+14 All Stats",
+      "textZh": "+14 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "vengeful-spirit",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+8% Magic Resistance",
+      "textZh": "+8% 魔法抗性"
+    },
+    "right": {
+      "textEn": "+25 Attack Speed",
+      "textZh": "+25 攻击速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "vengeful-spirit",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+100 Magic Missile Damage",
+      "textZh": "+100 魔法箭伤害"
+    },
+    "right": {
+      "textEn": "+8 All Stats",
+      "textZh": "+8 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "vengeful-spirit",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+50 Damage",
+      "textZh": "+50 攻击力"
+    },
+    "right": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "vengeful-spirit",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+20% Vengeance Aura Damage",
+      "textZh": "+20% 复仇光环攻击力"
+    },
+    "right": {
+      "textEn": "Magic Missile Pierces Spell Immunity",
+      "textZh": "魔法箭无视技能免疫"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "venomancer",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+20% XP Gain",
+      "textZh": "+20% 经验获取"
+    },
+    "right": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "venomancer",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+175 Health",
+      "textZh": "+175 生命"
+    },
+    "right": {
+      "textEn": "+150 Cast Range",
+      "textZh": "+150 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "venomancer",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+15% Magic Resistance",
+      "textZh": "+15% 魔法抗性"
+    },
+    "right": {
+      "textEn": "+75 Damage",
+      "textZh": "+75 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "venomancer",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "3x Plague Ward HP/Damage",
+      "textZh": "3倍 瘟疫守卫生命/攻击力"
+    },
+    "right": {
+      "textEn": "-60s Respawn Time",
+      "textZh": "-60秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "viper",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15 Damage",
+      "textZh": "+15 攻击力"
+    },
+    "right": {
+      "textEn": "+125 Health",
+      "textZh": "+125 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "viper",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+7 Strength",
+      "textZh": "+7 力量"
+    },
+    "right": {
+      "textEn": "+14 Agility",
+      "textZh": "+14 敏捷"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "viper",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+7 Armor",
+      "textZh": "+7 护甲"
+    },
+    "right": {
+      "textEn": "+75 Attack Range",
+      "textZh": "+75 攻击距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "viper",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "Poison Attack Affects Buildings",
+      "textZh": "毒性攻击对建筑有效"
+    },
+    "right": {
+      "textEn": "+80 Viper Strike DPS",
+      "textZh": "+80 蝮蛇突袭每秒伤害"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "visage",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+60 Gold/Min",
+      "textZh": "+60 金钱/分"
+    },
+    "right": {
+      "textEn": "+15% XP Gain",
+      "textZh": "+15% 经验获取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "visage",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+50 Damage",
+      "textZh": "+50 攻击力"
+    },
+    "right": {
+      "textEn": "+100 Cast Range",
+      "textZh": "+100 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "visage",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+250 Health",
+      "textZh": "+250 生命"
+    },
+    "right": {
+      "textEn": "-30s Respawn Time",
+      "textZh": "-30秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "visage",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+20% Spell Amplification",
+      "textZh": "+20% 技能增强"
+    },
+    "right": {
+      "textEn": "+120 Familiars Movement Speed",
+      "textZh": "+120 佣兽移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "warlock",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+6 All Stats",
+      "textZh": "+6 全属性"
+    },
+    "right": {
+      "textEn": "+15% XP Gain",
+      "textZh": "+15% 经验获取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "warlock",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+125 Cast Range",
+      "textZh": "+125 施法距离"
+    },
+    "right": {
+      "textEn": "+20 Movement Speed",
+      "textZh": "+20 移动速度"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "warlock",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+350 Health",
+      "textZh": "+350 生命"
+    },
+    "right": {
+      "textEn": "-30s Respawn Time",
+      "textZh": "-30秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "warlock",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "Spell Immunity for Chaotic Offering Golems",
+      "textZh": "地狱火拥有技能免疫"
+    },
+    "right": {
+      "textEn": "+15 Chaotic Offering Golems Armor",
+      "textZh": "+15 地狱火护甲"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "weaver",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+6 Strength",
+      "textZh": "+6 力量"
+    },
+    "right": {
+      "textEn": "+30 Shukuchi Damage",
+      "textZh": "+30 缩地伤害"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "weaver",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+25 Damage",
+      "textZh": "+25 攻击力"
+    },
+    "right": {
+      "textEn": "+7 All Stats",
+      "textZh": "+7 全属性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "weaver",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+200 Health",
+      "textZh": "+200 生命"
+    },
+    "right": {
+      "textEn": "+15 Agility",
+      "textZh": "+15 敏捷"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "weaver",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+200 Shukuchi Movement Speed",
+      "textZh": "+200 缩地移动速度"
+    },
+    "right": {
+      "textEn": "+20% Magic Resistance",
+      "textZh": "+20% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "windranger",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15 Damage",
+      "textZh": "+15 攻击力"
+    },
+    "right": {
+      "textEn": "+4 Mana Regen",
+      "textZh": "+4 魔法恢复"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "windranger",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+150 Health",
+      "textZh": "+150 生命"
+    },
+    "right": {
+      "textEn": "+13 Intelligence",
+      "textZh": "+13 智力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "windranger",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+12% Spell Amplification",
+      "textZh": "+12% 技能增强"
+    },
+    "right": {
+      "textEn": "+12% Magic Resistance",
+      "textZh": "+12% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "windranger",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+100 Attack Range",
+      "textZh": "+100 攻击距离"
+    },
+    "right": {
+      "textEn": "-5s Powershot Cooldown",
+      "textZh": "-5秒 强力击冷却"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "winter-wyvern",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+8 Intelligence",
+      "textZh": "+8 智力"
+    },
+    "right": {
+      "textEn": "+5 Strength",
+      "textZh": "+5 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "winter-wyvern",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "right": {
+      "textEn": "+40 Damage",
+      "textZh": "+40 攻击力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "winter-wyvern",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+120 Gold/Min",
+      "textZh": "+120 金钱/分"
+    },
+    "right": {
+      "textEn": "-35s Respawn Time",
+      "textZh": "-35秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "winter-wyvern",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "-3s Splinter Blast Cooldown",
+      "textZh": "-3秒 碎裂冲击冷却"
+    },
+    "right": {
+      "textEn": "+15% Arctic Burn Slow",
+      "textZh": "+15% 极寒灼烧减速"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "witch-doctor",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+200 Health",
+      "textZh": "+200 生命"
+    },
+    "right": {
+      "textEn": "+20% XP Gain",
+      "textZh": "+20% 经验获取"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "witch-doctor",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+75 Damage",
+      "textZh": "+75 攻击力"
+    },
+    "right": {
+      "textEn": "-35s Respawn Time",
+      "textZh": "-35秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "witch-doctor",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+8 Armor",
+      "textZh": "+8 护甲"
+    },
+    "right": {
+      "textEn": "+15% Magic Resistance",
+      "textZh": "+15% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "witch-doctor",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+150 Death Ward Attack Range",
+      "textZh": "+150 死亡守卫攻击距离"
+    },
+    "right": {
+      "textEn": "+20 Voodoo Restoration Heal",
+      "textZh": "+20 巫毒疗法治疗量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "wraith-king",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+15 Damage",
+      "textZh": "+15 攻击力"
+    },
+    "right": {
+      "textEn": "+8 Intelligence",
+      "textZh": "+8 智力"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "wraith-king",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+15 Movement Speed",
+      "textZh": "+15 移动速度"
+    },
+    "right": {
+      "textEn": "+200 Health",
+      "textZh": "+200 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "wraith-king",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+40 Attack Speed",
+      "textZh": "+40 攻击速度"
+    },
+    "right": {
+      "textEn": "+20 Strength",
+      "textZh": "+20 力量"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "wraith-king",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "No Reincarnation mana cost",
+      "textZh": "绝冥再生无需消耗魔法"
+    },
+    "right": {
+      "textEn": "+20% Vampiric Aura Lifesteal",
+      "textZh": "+20% 吸血光环效果"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "zeus",
+    "version": "7.00",
+    "level": 10,
+    "left": {
+      "textEn": "+2 Mana Regen",
+      "textZh": "+2 魔法恢复"
+    },
+    "right": {
+      "textEn": "150 Health",
+      "textZh": "+150 生命"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "zeus",
+    "version": "7.00",
+    "level": 15,
+    "left": {
+      "textEn": "+5 Armor",
+      "textZh": "+5 护甲"
+    },
+    "right": {
+      "textEn": "10% Magic Resistance",
+      "textZh": "+10% 魔法抗性"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "zeus",
+    "version": "7.00",
+    "level": 20,
+    "left": {
+      "textEn": "+30 Movement Speed",
+      "textZh": "+30 移动速度"
+    },
+    "right": {
+      "textEn": "-35 Respawn Time",
+      "textZh": "-35秒 复活时间"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  },
+  {
+    "heroId": "zeus",
+    "version": "7.00",
+    "level": 25,
+    "left": {
+      "textEn": "+1.5% Static Field Damage",
+      "textZh": "+1.5% 静电场伤害"
+    },
+    "right": {
+      "textEn": "+200 Cast Range",
+      "textZh": "+200 施法距离"
+    },
+    "source": "https://www.dota2.com/700/gameplay"
+  }
+]

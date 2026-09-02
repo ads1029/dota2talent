@@ -1,0 +1,492 @@
+[
+  {
+    "version": "7.05",
+    "heroes": 113,
+    "rows": 452,
+    "resolved": 895,
+    "unresolved": 9
+  },
+  {
+    "version": "7.06",
+    "heroes": 113,
+    "rows": 452,
+    "resolved": 895,
+    "unresolved": 9
+  },
+  {
+    "version": "7.06b",
+    "heroes": 112,
+    "rows": 448,
+    "resolved": 888,
+    "unresolved": 8
+  },
+  {
+    "version": "7.06c",
+    "heroes": 112,
+    "rows": 448,
+    "resolved": 888,
+    "unresolved": 8
+  },
+  {
+    "version": "7.06e",
+    "heroes": 112,
+    "rows": 448,
+    "resolved": 888,
+    "unresolved": 8
+  },
+  {
+    "version": "7.07",
+    "heroes": 113,
+    "rows": 452,
+    "resolved": 896,
+    "unresolved": 8
+  },
+  {
+    "version": "7.07b",
+    "heroes": 113,
+    "rows": 452,
+    "resolved": 896,
+    "unresolved": 8
+  },
+  {
+    "version": "7.07c",
+    "heroes": 113,
+    "rows": 452,
+    "resolved": 896,
+    "unresolved": 8
+  },
+  {
+    "version": "7.07d",
+    "heroes": 113,
+    "rows": 452,
+    "resolved": 896,
+    "unresolved": 8
+  },
+  {
+    "version": "7.08",
+    "heroes": 113,
+    "rows": 452,
+    "resolved": 896,
+    "unresolved": 8
+  },
+  {
+    "version": "7.10",
+    "heroes": 113,
+    "rows": 452,
+    "resolved": 896,
+    "unresolved": 8
+  },
+  {
+    "version": "7.11",
+    "heroes": 114,
+    "rows": 456,
+    "resolved": 904,
+    "unresolved": 8
+  },
+  {
+    "version": "7.14",
+    "heroes": 114,
+    "rows": 456,
+    "resolved": 904,
+    "unresolved": 8
+  },
+  {
+    "version": "7.16",
+    "heroes": 114,
+    "rows": 456,
+    "resolved": 904,
+    "unresolved": 8
+  },
+  {
+    "version": "7.17",
+    "heroes": 114,
+    "rows": 456,
+    "resolved": 904,
+    "unresolved": 8
+  },
+  {
+    "version": "7.18",
+    "heroes": 115,
+    "rows": 460,
+    "resolved": 912,
+    "unresolved": 8
+  },
+  {
+    "version": "7.19",
+    "heroes": 116,
+    "rows": 464,
+    "resolved": 916,
+    "unresolved": 12
+  },
+  {
+    "version": "7.19c",
+    "heroes": 116,
+    "rows": 464,
+    "resolved": 920,
+    "unresolved": 8
+  },
+  {
+    "version": "7.19d",
+    "heroes": 116,
+    "rows": 464,
+    "resolved": 920,
+    "unresolved": 8
+  },
+  {
+    "version": "7.20",
+    "heroes": 116,
+    "rows": 464,
+    "resolved": 920,
+    "unresolved": 8
+  },
+  {
+    "version": "7.20b",
+    "heroes": 116,
+    "rows": 464,
+    "resolved": 920,
+    "unresolved": 8
+  },
+  {
+    "version": "7.20c",
+    "heroes": 116,
+    "rows": 464,
+    "resolved": 920,
+    "unresolved": 8
+  },
+  {
+    "version": "7.20d",
+    "heroes": 116,
+    "rows": 464,
+    "resolved": 920,
+    "unresolved": 8
+  },
+  {
+    "version": "7.20e",
+    "heroes": 116,
+    "rows": 464,
+    "resolved": 920,
+    "unresolved": 8
+  },
+  {
+    "version": "7.21",
+    "heroes": 116,
+    "rows": 464,
+    "resolved": 920,
+    "unresolved": 8
+  },
+  {
+    "version": "7.21b",
+    "heroes": 116,
+    "rows": 464,
+    "resolved": 920,
+    "unresolved": 8
+  },
+  {
+    "version": "7.21c",
+    "heroes": 117,
+    "rows": 468,
+    "resolved": 928,
+    "unresolved": 8
+  },
+  {
+    "version": "7.21d",
+    "heroes": 117,
+    "rows": 468,
+    "resolved": 928,
+    "unresolved": 8
+  },
+  {
+    "version": "7.22",
+    "heroes": 117,
+    "rows": 468,
+    "resolved": 928,
+    "unresolved": 8
+  },
+  {
+    "version": "7.22h",
+    "heroes": 117,
+    "rows": 468,
+    "resolved": 50,
+    "unresolved": 886
+  },
+  {
+    "version": "7.23",
+    "heroes": 119,
+    "rows": 476,
+    "resolved": 52,
+    "unresolved": 900
+  },
+  {
+    "version": "7.23c",
+    "heroes": 119,
+    "rows": 476,
+    "resolved": 52,
+    "unresolved": 900
+  },
+  {
+    "version": "7.23e",
+    "heroes": 119,
+    "rows": 476,
+    "resolved": 52,
+    "unresolved": 900
+  },
+  {
+    "version": "7.23f",
+    "heroes": 119,
+    "rows": 476,
+    "resolved": 52,
+    "unresolved": 900
+  },
+  {
+    "version": "7.24",
+    "heroes": 119,
+    "rows": 476,
+    "resolved": 918,
+    "unresolved": 34
+  },
+  {
+    "version": "7.25",
+    "heroes": 119,
+    "rows": 476,
+    "resolved": 944,
+    "unresolved": 8
+  },
+  {
+    "version": "7.25c",
+    "heroes": 119,
+    "rows": 476,
+    "resolved": 944,
+    "unresolved": 8
+  },
+  {
+    "version": "7.26c",
+    "heroes": 119,
+    "rows": 476,
+    "resolved": 944,
+    "unresolved": 8
+  },
+  {
+    "version": "7.27c",
+    "heroes": 119,
+    "rows": 476,
+    "resolved": 944,
+    "unresolved": 8
+  },
+  {
+    "version": "7.28",
+    "heroes": 120,
+    "rows": 480,
+    "resolved": 950,
+    "unresolved": 10
+  },
+  {
+    "version": "7.28a",
+    "heroes": 120,
+    "rows": 480,
+    "resolved": 950,
+    "unresolved": 10
+  },
+  {
+    "version": "7.28b",
+    "heroes": 120,
+    "rows": 480,
+    "resolved": 950,
+    "unresolved": 10
+  },
+  {
+    "version": "7.29",
+    "heroes": 121,
+    "rows": 484,
+    "resolved": 952,
+    "unresolved": 16
+  },
+  {
+    "version": "7.29b",
+    "heroes": 121,
+    "rows": 484,
+    "resolved": 952,
+    "unresolved": 16
+  },
+  {
+    "version": "7.30",
+    "heroes": 121,
+    "rows": 484,
+    "resolved": 949,
+    "unresolved": 19
+  },
+  {
+    "version": "7.30d",
+    "heroes": 121,
+    "rows": 484,
+    "resolved": 949,
+    "unresolved": 19
+  },
+  {
+    "version": "7.30e",
+    "heroes": 122,
+    "rows": 488,
+    "resolved": 957,
+    "unresolved": 19
+  },
+  {
+    "version": "7.31",
+    "heroes": 123,
+    "rows": 492,
+    "resolved": 886,
+    "unresolved": 98
+  },
+  {
+    "version": "7.31b",
+    "heroes": 123,
+    "rows": 492,
+    "resolved": 886,
+    "unresolved": 98
+  },
+  {
+    "version": "7.31c",
+    "heroes": 123,
+    "rows": 492,
+    "resolved": 920,
+    "unresolved": 64
+  },
+  {
+    "version": "7.32",
+    "heroes": 123,
+    "rows": 492,
+    "resolved": 720,
+    "unresolved": 264
+  },
+  {
+    "version": "7.32c",
+    "heroes": 123,
+    "rows": 492,
+    "resolved": 983,
+    "unresolved": 1
+  },
+  {
+    "version": "7.32e",
+    "heroes": 124,
+    "rows": 496,
+    "resolved": 992,
+    "unresolved": 0
+  },
+  {
+    "version": "7.33",
+    "heroes": 124,
+    "rows": 496,
+    "resolved": 992,
+    "unresolved": 0
+  },
+  {
+    "version": "7.34",
+    "heroes": 124,
+    "rows": 496,
+    "resolved": 992,
+    "unresolved": 0
+  },
+  {
+    "version": "7.35b",
+    "heroes": 124,
+    "rows": 496,
+    "resolved": 960,
+    "unresolved": 32
+  },
+  {
+    "version": "7.35d",
+    "heroes": 124,
+    "rows": 496,
+    "resolved": 992,
+    "unresolved": 0
+  },
+  {
+    "version": "7.36",
+    "heroes": 124,
+    "rows": 496,
+    "resolved": 984,
+    "unresolved": 8
+  },
+  {
+    "version": "7.36a",
+    "heroes": 124,
+    "rows": 496,
+    "resolved": 984,
+    "unresolved": 8
+  },
+  {
+    "version": "7.36c",
+    "heroes": 124,
+    "rows": 496,
+    "resolved": 984,
+    "unresolved": 8
+  },
+  {
+    "version": "7.37",
+    "heroes": 124,
+    "rows": 496,
+    "resolved": 979,
+    "unresolved": 13
+  },
+  {
+    "version": "7.37b",
+    "heroes": 125,
+    "rows": 500,
+    "resolved": 987,
+    "unresolved": 13
+  },
+  {
+    "version": "7.37c",
+    "heroes": 125,
+    "rows": 500,
+    "resolved": 987,
+    "unresolved": 13
+  },
+  {
+    "version": "7.37d",
+    "heroes": 126,
+    "rows": 504,
+    "resolved": 931,
+    "unresolved": 77
+  },
+  {
+    "version": "7.37e",
+    "heroes": 126,
+    "rows": 504,
+    "resolved": 931,
+    "unresolved": 77
+  },
+  {
+    "version": "7.38",
+    "heroes": 126,
+    "rows": 504,
+    "resolved": 928,
+    "unresolved": 80
+  },
+  {
+    "version": "7.39",
+    "heroes": 126,
+    "rows": 504,
+    "resolved": 911,
+    "unresolved": 97
+  },
+  {
+    "version": "7.39d",
+    "heroes": 126,
+    "rows": 504,
+    "resolved": 325,
+    "unresolved": 683
+  },
+  {
+    "version": "7.40",
+    "heroes": 127,
+    "rows": 508,
+    "resolved": 322,
+    "unresolved": 694
+  },
+  {
+    "version": "7.41",
+    "heroes": 127,
+    "rows": 508,
+    "resolved": 314,
+    "unresolved": 702
+  }
+]
