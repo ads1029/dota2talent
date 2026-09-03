@@ -33,6 +33,11 @@ describe('Ancient Archive full dataset', () => {
   it('sorts generic talents by numeric value', () => {
     render(<App />)
     fireEvent.click(screen.getByRole('button', { name: '通用天赋索引' }))
+    const tableRows = document.querySelectorAll('.table-row')
+    const heroImages = document.querySelectorAll('.table-hero-image img')
+    expect(heroImages).toHaveLength(tableRows.length)
+    expect([...heroImages].every(image => image.getAttribute('src')?.includes('/heroes/'))).toBe(true)
+    expect(document.querySelectorAll('.table-hero i')).toHaveLength(0)
     const values = [...document.querySelectorAll('.value')].map(x => Number(x.textContent?.replace('%','')))
     expect(values[0]).toBeGreaterThanOrEqual(values[1])
     fireEvent.click(screen.getByText('从高到低'))
