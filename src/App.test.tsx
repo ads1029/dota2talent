@@ -85,10 +85,10 @@ describe('Ancient Archive full dataset', () => {
     render(<App />)
     fireEvent.click(screen.getByRole('button', { name: '属性成长排名' }))
     const table = screen.getByRole('table')
-    const rows = () => within(table).getAllByRole('row').slice(1)
+    const rows = () => [...table.querySelectorAll('tbody tr')]
     expect(rows()).toHaveLength(127)
-    expect(new Set(rows().map(row => within(row).getByRole('rowheader').textContent)).size).toBe(127)
-    const values = (index: number) => rows().map(row => Number(within(row).getAllByRole('cell')[index].textContent))
+    expect(new Set(rows().map(row => row.querySelector('th')?.textContent)).size).toBe(127)
+    const values = (index: number) => rows().map(row => Number(row.querySelectorAll('td')[index].textContent))
     expect(values(3)).toEqual([...values(3)].sort((a, b) => b - a))
     for (const [index, column] of ['力量成长', '敏捷成长', '智力成长', '总成长'].entries()) {
       for (const direction of ['升序', '降序']) {
@@ -101,7 +101,7 @@ describe('Ancient Archive full dataset', () => {
       }
     }
     for (const row of rows()) {
-      const [str, agi, int, total] = within(row).getAllByRole('cell').map(cell => Number(cell.textContent))
+      const [str, agi, int, total] = [...row.querySelectorAll('td')].map(cell => Number(cell.textContent))
       expect(total).toBeCloseTo(str + agi + int, 4)
     }
     fireEvent.click(screen.getByRole('button', { name: /EN/ }))
