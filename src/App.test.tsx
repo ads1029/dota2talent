@@ -1,7 +1,8 @@
-import { cleanup, render, screen, fireEvent } from '@testing-library/react'
+import { cleanup, render, screen, fireEvent, within } from '@testing-library/react'
 import { afterEach, describe, expect, it } from 'vitest'
 import App from './App'
 import { archive, eventsForHero, heroes, talentsForHero, versions } from './data'
+import { growthSnapshot, growthValue, heroGrowthRows, sortHeroGrowth, type GrowthColumn } from './heroGrowth'
 
 afterEach(cleanup)
 
@@ -79,5 +80,51 @@ describe('Ancient Archive full dataset', () => {
     fireEvent.click(screen.getByRole('button', { name: '切换时间线顺序' }))
     expect(screen.getByText('最旧 → 最新')).toBeTruthy()
     expect(firstVisibleVersion()).toBe(events[0].version)
+  })
+  it('ranks all heroes numerically in both directions for every growth column', () => {
+    render(<App />)
+    fireEvent.click(screen.getByRole('button', { name: '属性成长排名' }))
+    const table = screen.getByRole('table')
+    const rows = () => within(table).getAllByRole('row').slice(1)
+    expect(rows()).toHaveLength(127)
+    expect(new Set(rows().map(row => within(row).getByRole('rowheader').textContent)).size).toBe(127)
+    const values = (index: number) => rows().map(row => Number(within(row).getAllByRole('cell')[index].textContent))
+    expect(values(3)).toEqual([...values(3)].sort((a, b) => b - a))
+    for (const [index, column] of ['力量成长', '敏捷成长', '智力成长', '总成长'].entries()) {
+      for (const direction of ['升序', '降序']) {
+        const button = screen.getByRole('button', { name: `${column} ${direction}` })
+        fireEvent.click(button)
+        expect(button.getAttribute('aria-pressed')).toBe('true')
+        expect(within(table).getAllByRole('button', { pressed: true })).toHaveLength(1)
+        expect(within(table).getByRole('columnheader', { name: new RegExp(column) }).getAttribute('aria-sort')).toBe(direction === '升序' ? 'ascending' : 'descending')
+        expect(values(index)).toEqual([...values(index)].sort((a, b) => direction === '升序' ? a - b : b - a))
+      }
+    }
+    for (const row of rows()) {
+      const [str, agi, int, total] = within(row).getAllByRole('cell').map(cell => Number(cell.textContent))
+      expect(total).toBeCloseTo(str + agi + int, 4)
+    }
+    fireEvent.click(screen.getByRole('button', { name: /EN/ }))
+    expect(screen.getByRole('heading', { name: 'Attribute growth' })).toBeTruthy()
+    expect(screen.getByRole('button', { name: 'Total Ascending' })).toBeTruthy()
+    fireEvent.click(screen.getByRole('button', { name: 'Hero archive' }))
+    expect(screen.getByText('+50 Freezing Field Damage')).toBeTruthy()
+  })
+  it('has complete official growth data and preserves zero while sorting missing data last', () => {
+    expect(growthSnapshot.officialHeroCount).toBe(heroes.length)
+    expect(Object.keys(growthSnapshot.heroes).sort()).toEqual(heroes.map(hero => hero.id).sort())
+    for (const row of heroGrowthRows) {
+      expect(growthSnapshot.heroes[row.hero.id].numericId).toBe(row.hero.numericId)
+      for (const column of ['strength', 'agility', 'intelligence', 'total'] as GrowthColumn[]) {
+        expect(Number.isFinite(growthValue(row.values, column))).toBe(true)
+      }
+    }
+    expect(growthValue({ strength: 0, agility: 1.1, intelligence: 2.2 }, 'total')).toBe(3.3)
+    expect(growthValue({ strength: null, agility: 1, intelligence: 2 }, 'total')).toBeNull()
+    const missing = { ...heroGrowthRows[0], values: { strength: null, agility: null, intelligence: null } }
+    const zero = { ...heroGrowthRows[1], values: { strength: 0, agility: 0, intelligence: 0 } }
+    for (const direction of ['asc', 'desc'] as const) {
+      expect(sortHeroGrowth([missing, zero], 'total', direction)).toEqual([zero, missing])
+    }
   })
 })

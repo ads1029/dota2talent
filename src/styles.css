@@ -16,3 +16,51 @@
 .timeline-order{height:34px;border:1px solid #343a36;background:#151917;color:#b9c3b8;padding:0 11px;display:flex;align-items:center;gap:7px;font:600 10px 'Barlow Condensed','Noto Sans SC';letter-spacing:.08em;white-space:nowrap}
 .timeline-order:hover{border-color:#59645b;color:#eef1ea;background:#1a1f1c}
 @media(max-width:850px){.toolbar{height:auto;min-height:74px;gap:12px}.toolbar-actions{gap:7px}.timeline-order{font-size:0;padding:0 9px}.timeline-order svg{width:17px;height:17px}}
+
+/* Attribute growth: a readable ledger with a fixed hero column on narrow screens. */
+.growth-page{margin:0 auto;min-width:0}
+.growth-page .index-title h1{margin-top:12px}
+.growth-page .index-title p{max-width:690px;line-height:1.9}
+.growth-metadata{color:#a1aba0;font-size:11px;line-height:1.8;margin:18px 0}
+.growth-status{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:24px;font-size:12px;color:var(--muted)}
+.growth-status b{color:#cad8af;font-weight:500}
+.growth-scroll-hint{font-size:11px;color:#a0a8a0;margin:12px 0}
+.growth-table-scroll{overflow-x:auto;border:1px solid var(--line);scrollbar-color:#5a6556 #151a16;scrollbar-width:thin}
+.growth-table{width:100%;min-width:680px;border-collapse:separate;border-spacing:0;table-layout:fixed;background:#111512;font-size:13px}
+.growth-table th,.growth-table td{padding:15px 14px;border-bottom:1px solid #29302a;text-align:right}
+.growth-table th:first-child{position:sticky;left:0;z-index:1;width:28%;background:#161c17;text-align:left;box-shadow:1px 0 #303830}
+.growth-table thead th{background:#1b221c;color:#d1d8cd;font-weight:500;vertical-align:top;padding-top:20px;padding-bottom:18px}
+.growth-table thead th:first-child{vertical-align:middle;z-index:2}
+.growth-table thead small{display:block;color:#9ba497;font-size:9px;letter-spacing:.08em;margin:4px 0 10px}
+.growth-table tbody th{font-weight:500}
+.growth-table tbody th img{display:inline-block;object-fit:cover;border:1px solid #39433a;vertical-align:middle;margin-right:10px}
+.growth-table tbody th span{vertical-align:middle;overflow-wrap:anywhere}
+.growth-table tbody td{font-variant-numeric:tabular-nums;font-family:'Barlow Condensed','Noto Sans SC',sans-serif;font-size:21px;color:#c4ccc1}
+.growth-table tbody td.sorted{background:rgba(157,187,98,.065);color:#e5f0d4}
+.growth-table tbody tr:hover td,.growth-table tbody tr:hover th{background:#202820}
+.growth-table tbody tr:last-child>*{border-bottom:0}
+.growth-table thead .growth-strength>span{color:#e19b8f}
+.growth-table thead .growth-agility>span{color:#b4d18c}
+.growth-table thead .growth-intelligence>span{color:#97bfdc}
+.growth-table thead .growth-total>span{color:#e2c581}
+.growth-sort-buttons{display:flex;justify-content:flex-end;gap:4px}
+.growth-sort-buttons button{display:flex;align-items:center;justify-content:center;gap:2px;background:#111712;color:#a5afa1;border:1px solid #485245;border-radius:2px;padding:5px 4px;min-height:30px;font-size:10px;white-space:nowrap}
+.growth-sort-buttons button:hover{color:#edf2e7;border-color:#9dbb62}
+.growth-sort-buttons button[aria-pressed=true]{background:#a9c77e;color:#10170a;border-color:#a9c77e;font-weight:700}
+.growth-source{margin-top:22px;padding-left:14px;border-left:2px solid #596e40;font-size:11px;color:#a1aba0;line-height:1.9}
+.growth-source p{margin:5px 0}
+.growth-source a{color:#c6d5b6;text-decoration:none;display:inline-flex;align-items:center;gap:5px}
+.growth-source time{font-variant-numeric:tabular-nums}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.growth-table-scroll:focus-visible,.growth-sort-buttons button:focus-visible,nav button:focus-visible{outline:2px solid #c4db9c;outline-offset:3px}
+@media(min-width:851px) and (max-width:1180px){.brand{margin-right:30px}nav{gap:14px}.sample-badge{display:none}}
+@media(max-width:850px){
+  header{height:auto;min-height:110px;padding-top:12px;flex-wrap:wrap;gap:4px 12px}
+  .brand{margin-right:0}.head-actions{margin-left:auto}
+  nav{order:3;flex-basis:100%;height:42px;justify-content:space-between;gap:6px}
+  nav button{font-size:11px;gap:5px;padding:0 4px}nav svg{width:15px;height:15px}
+  main{min-height:calc(100vh - 110px)}
+  .growth-page{padding:30px 16px}.growth-page .index-title h1{font-size:34px}
+  .growth-table th:first-child{width:160px}.growth-table th,.growth-table td{padding-left:10px;padding-right:10px}
+  .growth-table tbody th{font-size:12px}.growth-table tbody th img{width:34px;height:23px;margin-right:6px}
+}

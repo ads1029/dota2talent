@@ -23,7 +23,8 @@
     "data:assemble": "bun scripts/assemble-talent-history.ts",
     "data:validate": "bun scripts/validate-talent-data.ts",
     "data:compile": "bun run data:bootstrap && bun run data:early && bun run data:build && bun run data:assemble && bun run data:build-anchors && bun run data:snapshots && bun run data:canonical-current && bun run data:web && bun run data:validate",
-    "data:import": "bun run data:sync && bun run data:sync-anchors && bun run data:sync-current && bun run data:compile"
+    "data:import": "bun run data:sync && bun run data:sync-anchors && bun run data:sync-current && bun run data:sync-growth && bun run data:compile",
+    "data:sync-growth": "bun scripts/sync-hero-growth.ts"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

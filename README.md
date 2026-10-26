@@ -44,3 +44,23 @@ bun run data:import
 - `data/normalized/current-official-talents.json`：7.41e 官方当前树原始模板
 - `data/normalized/snapshot-build-report.json`：重放、锚点修正与未决项报告
 
+## 英雄属性成长排名
+
+在顶部导航选择「属性成长排名」。每行英雄名，四列为力量、敏捷、智力每级成长和三项之和；默认按总成长降序，每列都有独立升序 / 降序按钮。支持中英切换，窄屏可横向滑动表格，英雄列固定。此数据独立于天赋历史版本，不含基础属性、天赋或技能加成。
+
+`src/generated/hero-attribute-growth.json` 保存 Valve 官方 `herodata` 的 `str_gain`、`agi_gain`、`int_gain` 快照，按 `heroCatalog.numericId` 对应。数据更新命令：
+
+```bash
+bun run data:sync-growth
+```
+
+此步骤也已加入 `data:import`。同步时核对官方 `herolist` 与目录英雄 ID 完全一致，并要求所有成长字段是有效数值；任一步骤失败均保留原快照，不写入部分结果。缺失数据在页面显示为 `—` 并始终排在最后，三项不全时不计算总和。
+
+页面展示抓取时间（UTC）、官方来源和抓取时最新补丁公告。`herodata` 不提供版本号，所以最新公告只作参考，不将快照冒称为某版本逐项核验的数据。现有天赋档案仍为 7.00–7.41e。
+
+本地预览（仅当前电脑）：
+
+```bash
+bun run dev --host 127.0.0.1
+```
+

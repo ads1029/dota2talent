@@ -2,8 +2,9 @@ import { useMemo, useState } from 'react'
 import { ArrowDownUp, BookOpen, ChevronDown, ExternalLink, Filter, GitCompareArrows, Globe2, LayoutGrid, Search, ShieldCheck, Sparkles, X } from 'lucide-react'
 import { categoryLabels, eventsForHero, heroes, talentsForHero, talentsForVersion, variantsForHero, versions, type ArchiveEvent, type HeroId, type Language, type PrimaryAttribute, type Talent, type TalentCategory, type VariantTalent } from './data'
 import './styles.css'
+import HeroGrowthRanking from './HeroGrowthRanking'
 
-type Page = 'archive' | 'index'
+type Page = 'archive' | 'index' | 'growth'
 const assetUrl = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`
 const copy = {
   zh: { archive:'英雄档案', index:'通用天赋索引', title:'古树档案', subtitle:'DOTA 2 天赋树历史数据库', snapshot:'版本快照', timeline:'变更时间线', official:'官方来源', level:'等级', generic:'通用', unique:'独特', all:'全部类别', asc:'从低到高', desc:'从高到低', results:'条记录', search:'搜索 127 名英雄…', source:'完整数据以官方更新日志与游戏数据锚点为依据', preview:'127 英雄 · 133 版本', compare:'对比版本', empty:'没有符合条件的天赋' },
@@ -37,6 +38,7 @@ export default function App() {
       <nav>
         <button className={page==='archive'?'active':''} onClick={() => setPage('archive')}><BookOpen size={16}/>{c.archive}</button>
         <button className={page==='index'?'active':''} onClick={() => setPage('index')}><LayoutGrid size={16}/>{c.index}</button>
+        <button className={page==='growth'?'active':''} onClick={() => setPage('growth')} aria-current={page==='growth'?'page':undefined}><ArrowDownUp size={16}/>{language==='zh'?'属性成长排名':'Attribute growth'}</button>
       </nav>
       <div className="head-actions"><span className="sample-badge"><span/> {c.preview}</span><button className="language" onClick={() => setLanguage(language==='zh'?'en':'zh')}><Globe2 size={15}/>{language==='zh'?'EN':'中文'}</button></div>
     </header>
@@ -69,7 +71,7 @@ export default function App() {
           {hasTalentData ? (view==='snapshot' ? <><TalentTree talents={heroTalents} language={language}/><VariantTalents talents={variantTalents} language={language}/></> : <Timeline events={eventsForHero(heroId)} language={language} order={timelineOrder}/>) : <PendingHero hero={hero} language={language} version={version}/>}
           <div className="source-card"><span><ShieldCheck size={18}/></span><div><b>{c.source}</b><p>{language==='zh'?`已载入 7.00–7.41e 全部 133 个版本；当前选择 ${version}，所有分支与变更记录均已载入。`:`All 133 patches from 7.00–7.41e are loaded. ${version} preserves every branch and change record.`}</p></div><a href={version==='7.00'?'https://www.dota2.com/700/gameplay':`https://www.dota2.com/patches/${version}`} target="_blank">{c.official}<ExternalLink size={14}/></a></div>
         </section>
-      </> : <GenericIndex language={language} version={version} setVersion={setVersion} category={category} setCategory={setCategory} sort={sort} setSort={setSort} talents={genericTalents}/>}
+      </> : page === 'growth' ? <HeroGrowthRanking language={language}/> : <GenericIndex language={language} version={version} setVersion={setVersion} category={category} setCategory={setCategory} sort={sort} setSort={setSort} talents={genericTalents}/>}
     </main>
   </div>
 }
